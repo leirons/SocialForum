@@ -1,0 +1,156 @@
+/*Vareibles*/
+:root {
+    --header_bg: #2b2c32;
+    --footer_bg: #777272;
+    --max_width: 1200px;
+    --roboto: 'Roboto', sans-serif;
+    --raleway: 'Raleway', sans-serif;
+
+}
+/*Vareibles*/
+
+body {
+    margin: 0;
+    font-family: var(--roboto);
+    font-size: 14px;
+    color: #6c7279;
+    background: #fff;
+    line-height: 1.5;
+}
+
+/*Normolize*/
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+/*Normolize*/
+
+/*Container*/
+.container {
+    width: 100%;
+    max-width: var(--max_width);
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+/*Container*/
+
+/*Header*/
+.header {
+    background: var(--header_bg);
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 10vh;
+}
+
+.header__logo {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--raleway);
+    color: yellow;
+}
+
+.header__link {
+    margin: 0 10px;
+    color: yellow;
+    text-decoration: none;
+}
+
+/*Header*/
+
+/*Nav*/
+.nav {
+    text-transform: uppercase;
+    font-family: var(--roboto);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav__link {
+    margin: 0 10px;
+    color: #fff;
+
+    text-decoration: none;
+    position: relative;
+    transition: color .3s linear;
+}
+
+.nav__link:hover {
+    color: red;
+    border-bottom: 3px solid red;
+}
+/*Nav*/
+
+
+/*Content*/
+.content {
+    padding-top: 0;
+    height: 100vh;
+    background: #0f3a42;
+}
+.content__login, .content__signup {
+    text-align: center;
+    padding-top: 12%;
+}
+
+.content__login p, .content__signup p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.content__login li {
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.content__login input {
+    font-size: 20px;
+}
+
+
+/*Content*/
+
+/*Button*/
+.login_btn {
+    font-family: var(--roboto);
+    font-size: 15px;
+    color: #fff;
+    background: #D44B38;
+    padding: 10px 20px;
+}
+
+.login_btn:hover {
+    background: #E85F4C;
+}
+
+.login_btn:active {
+    background: #980F00;
+}
+/*Button*/
+
+
+/*Footer*/
+.footer {
+    background: var(--footer_bg);
+    padding-top: 2.5px;
+}
+
+.footer__copyright {
+    padding: 1px;
+    color: #fff;
+}
+.footer__text {
+    text-align: center;
+}
+/*Footer*/

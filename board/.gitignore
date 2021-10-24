@@ -1,0 +1,9 @@
+.idea
+venv
+db.sqlite3
+.coverage
+__pycache__
+*.pyc
+htmlcov
+static/admin
+

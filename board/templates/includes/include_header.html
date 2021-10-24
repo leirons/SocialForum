@@ -1,0 +1,17 @@
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                <a class="header__link" href="{% url 'themes' %}">LOGO</a>
+            </div>
+            <nav class="nav">
+                {% if not user.is_authenticated %}
+                    <a class="nav__link" href="{% url 'login' %}">Войти</a>
+                    <a class="nav__link" href="{% url 'signup' %}">Регистрация</a>
+                {% else %}
+                    <a class="nav__link" href="{% url 'logout' %}">Выйти</a>
+                {% endif %}
+            </nav>
+        </div>
+    </div>
+</header>

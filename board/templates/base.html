@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>{% block title %} Django Auth Tutorial {% endblock %}</title>
+</head>
+<body>
+    {% block header %}
+        {% include 'includes/include_header.html' %}
+    {% endblock header %}
+
+
+        {% block content %}
+        {% endblock content %}
+
+
+
+
+    {% block footer %}
+        {% include 'includes/include_footer.html' %}
+    {% endblock footer %}
+
+</body>
+</html>

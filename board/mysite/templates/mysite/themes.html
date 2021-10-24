@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{{ page_obj }}
+
+<a href="posts/post_edit/create_post/{{ slug }}">Создать пост</a>
+{% for i in page_obj %}
+    <p>
+    <center><strong>{{ i.title }}</strong></p>
+    <p>{{ i.text }}</p>
+    <p><a href="posts/{{ i.pk }}">Прочитать комментарии</a></p>
+    {% if i.user_id == user_id %}
+        <a href="post_edit/{{ i.id }}">Редактировать Пост</a>
+    {% endif %}
+    {{ i.created_at }}
+    </center>
+{% endfor %}
+<br>
+<hr>
+<center>Комментарии, первые 5 штук</center>
+{% for comment in last_three_comments %}
+    <center><p>{{ comment.user }}</p>
+    {{ comment.body }}
+{% endfor %}
+</center>
+
+
+{% for c in last_five_comments %}
+    {{ c.username }}
+    {{ c.body }}
+    {{ c.created_on|date:"d.m.Y H:i:s" }}
+    <br>
+{% endfor %}
+
+</body>
+</html>

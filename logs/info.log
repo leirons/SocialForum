@@ -1,0 +1,131 @@
+INFO Watching for file changes with StatReloader
+INFO "GET /mysite/ HTTP/1.1" 200 13099
+INFO "GET /mysite/fyvyv HTTP/1.1" 200 11202
+INFO "GET /mysite/posts/1/ HTTP/1.1" 200 11079
+    INFO "GET /mysite/posts/post_edit/create_comment/ HTTP/1.1" 200 11350
+ERROR Internal Server Error: /mysite/create_error
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\pythonProject39\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\pythonProject39\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\pythonProject39\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\pythonProject39\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\pythonProject39\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\pythonProject39\Forum\board\mysite\views.py", line 56, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR "GET /mysite/create_error HTTP/1.1" 500 92948
+INFO Watching for file changes with StatReloader
+INFO C:\Users\Chokeup\PycharmProjects\pythonProject39\Forum\board\board\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader 2021-08-04 15:51:01,070 autoreload
+INFO C:\Users\Chokeup\PycharmProjects\pythonProject39\Forum\board\board\settings.py changed, reloading. 2021-08-04 15:51:05,046 autoreload
+INFO 2021-08-04 15:51:09,208 autoreload 15464
+INFO 2021-08-04 15:51:18,030 autoreload 15464
+INFO 2021-08-04 15:51:21,991 autoreload  5792 12216 Watching for file changes with StatReloader
+INFO 2021-08-04 15:51:40,943 autoreload  5792 12216 C:\Users\Chokeup\PycharmProjects\pythonProject39\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-08-04 15:51:45,589 autoreload  11572 16592 Watching for file changes with StatReloader
+INFO 2021-08-04 15:51:59,855 basehttp  11572 6140 "GET /mysite/fyvyv HTTP/1.1" 200 11203
+INFO 2021-08-04 15:52:21,284 autoreload  16364 15848 Watching for file changes with StatReloader
+INFO 2021-08-04 15:52:28,289 basehttp  16364 19372 "GET /mysite/fyvyv HTTP/1.1" 200 11203
+INFO 2021-08-04 15:52:39,218 autoreload  16364 15848 C:\Users\Chokeup\PycharmProjects\pythonProject39\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-08-04 15:52:44,600 autoreload  15640 18356 Watching for file changes with StatReloader
+INFO 2021-08-04 15:52:54,821 autoreload  5424 16176 Watching for file changes with StatReloader
+INFO 2021-08-04 15:53:03,550 basehttp  5424 17796 "GET /mysite/ HTTP/1.1" 200 13099
+INFO 2021-08-04 15:53:07,294 basehttp  5424 17796 "GET /mysite/fyvyv HTTP/1.1" 200 11202
+INFO 2021-08-04 15:53:41,397 autoreload  5424 16176 C:\Users\Chokeup\PycharmProjects\pythonProject39\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-08-04 15:53:53,015 autoreload  3592 11288 Watching for file changes with StatReloader
+INFO 2021-08-04 15:54:51,482 autoreload  3592 11288 C:\Users\Chokeup\PycharmProjects\pythonProject39\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-08-04 15:54:57,309 autoreload  19372 9484 Watching for file changes with StatReloader
+INFO 2021-08-04 15:55:03,117 basehttp  19372 14632 "GET /mysite/fyvyv HTTP/1.1" 200 11203
+INFO 2021-08-04 15:55:05,844 basehttp  19372 14632 "GET /mysite/posts/1/ HTTP/1.1" 200 11079
+INFO 2021-08-04 15:55:28,625 autoreload  19372 9484 C:\Users\Chokeup\PycharmProjects\pythonProject39\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-08-04 15:55:33,385 autoreload  18576 17328 Watching for file changes with StatReloader
+INFO 2021-08-04 15:56:00,557 basehttp  18576 4732 "GET /mysite/posts/1/ HTTP/1.1" 200 11080
+INFO 2021-08-04 15:56:02,481 basehttp  18576 4732 "GET /mysite/posts/1/ HTTP/1.1" 200 11080
+INFO 2021-08-04 15:57:04,716 autoreload  18576 17328 C:\Users\Chokeup\PycharmProjects\pythonProject39\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-08-04 15:57:10,355 autoreload  14088 10888 Watching for file changes with StatReloader
+INFO 2021-08-04 15:57:11,046 views  14088 10888 Critical
+INFO 2021-08-04 15:57:14,365 basehttp  14088 17100 "GET /mysite/posts/1/ HTTP/1.1" 200 11081
+INFO 2021-08-04 16:03:02,245 autoreload  14436 14920 Watching for file changes with StatReloader
+INFO 2021-08-04 16:03:07,935 views  14436 17728 �� �������� �����: 1
+INFO 2021-08-04 16:03:09,164 basehttp  14436 17728 "GET /mysite/fyvyv HTTP/1.1" 200 11203
+INFO 2021-08-04 16:03:13,359 views  14436 17728 �� �������� �����1
+INFO 2021-08-04 16:03:13,765 basehttp  14436 17728 "GET /mysite/posts/1/ HTTP/1.1" 200 11079
+INFO 2021-08-04 16:04:05,800 autoreload  14436 14920 C:\Users\Chokeup\PycharmProjects\pythonProject39\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-08-04 16:04:09,856 autoreload  14492 9488 Watching for file changes with StatReloader
+INFO 2021-08-04 16:04:14,579 autoreload  14492 9488 C:\Users\Chokeup\PycharmProjects\pythonProject39\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-08-04 16:04:19,129 autoreload  11660 6240 Watching for file changes with StatReloader
+INFO 2021-08-04 16:12:59,192 views  15180 7772 The user 1 entered in the page 
+INFO 2021-08-04 16:13:00,325 basehttp  15180 7772 "GET /mysite/ HTTP/1.1" 200 13099
+INFO 2021-08-04 16:13:27,680 views  15180 7772 User 1 subscribed to the newsletter
+INFO 2021-08-04 16:13:28,306 basehttp  15180 7772 "POST /mysite/subscription/ HTTP/1.1" 200 12800
+INFO 2021-08-04 18:17:42,720 autoreload  18128 11372 Watching for file changes with StatReloader
+WARNING 2021-08-04 20:20:09,141 log  8800 9348 Unauthorized: /api/ignore-user/
+WARNING 2021-08-04 20:20:09,167 log  8800 9348 Forbidden: /api/ignore-user/
+WARNING 2021-08-04 20:20:09,267 log  8800 9348 Forbidden: /api/ignore-user/1/
+WARNING 2021-08-04 20:20:09,297 log  8800 9348 Unauthorized: /api/ignore-user/1/
+WARNING 2021-08-04 20:20:09,339 log  8800 9348 Forbidden: /api/ignore-user/1/
+WARNING 2021-08-04 20:20:09,356 log  8800 9348 Forbidden: /api/ignore-user/
+WARNING 2021-08-04 20:20:09,384 log  8800 9348 Bad Request: /api/ignore-user/
+WARNING 2021-08-04 20:20:09,393 log  8800 9348 Bad Request: /api/ignore-user/
+WARNING 2021-08-04 20:20:09,401 log  8800 9348 Bad Request: /api/ignore-user/
+WARNING 2021-08-04 20:20:09,521 log  8800 9348 Forbidden: /api/profile/BeginnerA234/
+WARNING 2021-08-04 20:20:09,628 log  8800 9348 Method Not Allowed: /api/profile/BeginnerA234/
+WARNING 2021-08-04 20:20:09,640 log  8800 9348 Method Not Allowed: /api/profile/BeginnerA234/
+WARNING 2021-08-04 20:20:09,930 log  8800 9348 Bad Request: /api/register/
+WARNING 2021-08-04 20:20:09,938 log  8800 9348 Bad Request: /api/register/
+WARNING 2021-08-04 20:20:09,942 log  8800 9348 Method Not Allowed: /api/register/
+WARNING 2021-08-04 20:20:09,944 log  8800 9348 Bad Request: /api/register/
+WARNING 2021-08-04 20:20:09,945 log  8800 9348 Method Not Allowed: /api/register/
+WARNING 2021-08-04 20:20:09,947 log  8800 9348 Method Not Allowed: /api/register/
+WARNING 2021-08-04 20:20:10,212 log  8800 9348 Bad Request: /api/register/
+INFO 2021-08-04 20:36:44,898 autoreload  16948 7080 Watching for file changes with StatReloader
+INFO 2021-08-04 20:36:45,800 basehttp  16948 7928 "GET /admin HTTP/1.1" 301 0
+INFO 2021-08-04 20:36:46,954 basehttp  16948 7928 "GET /admin/ HTTP/1.1" 200 25698
+INFO 2021-08-04 20:36:47,061 basehttp  16948 7928 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2021-08-04 20:36:47,064 basehttp  16948 18800 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2021-08-04 20:36:47,072 basehttp  16948 18876 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2021-08-04 20:36:47,074 basehttp  16948 12216 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2021-08-04 20:36:47,079 basehttp  16948 6120 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 11461
+INFO 2021-08-04 20:36:47,113 basehttp  16948 18876 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2021-08-04 20:36:47,120 basehttp  16948 18800 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-08-04 20:36:47,121 basehttp  16948 6120 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-08-04 20:36:47,149 basehttp  16948 18800 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-08-04 20:36:47,150 basehttp  16948 6120 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-08-04 20:36:47,151 basehttp  16948 12216 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 10452
+INFO 2021-08-04 20:36:47,255 basehttp  16948 18800 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-08-04 20:36:47,255 basehttp  16948 6120 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-08-04 20:36:47,256 basehttp  16948 12216 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-08-04 20:36:47,285 basehttp  16948 18800 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 2988
+INFO 2021-08-04 20:36:50,008 basehttp  16948 18800 "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 76401
+INFO 2021-08-04 20:36:50,077 basehttp  16948 18800 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+INFO 2021-08-04 20:36:50,078 basehttp  16948 18876 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2021-08-04 20:36:50,123 basehttp  16948 18800 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2021-08-04 20:36:50,128 basehttp  16948 18876 "GET /static/admin/js/actions.js HTTP/1.1" 200 7664
+INFO 2021-08-04 20:36:50,130 basehttp  16948 7928 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2021-08-04 20:36:50,139 basehttp  16948 16928 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2021-08-04 20:36:50,144 basehttp  16948 18800 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2021-08-04 20:36:50,189 basehttp  16948 12216 "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+INFO 2021-08-04 20:36:50,212 basehttp  16948 6120 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2021-08-04 20:36:50,247 basehttp  16948 6120 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2021-08-04 20:36:50,268 basehttp  16948 7928 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2021-08-04 20:36:50,327 basehttp  16948 7928 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2021-08-04 20:36:50,331 basehttp  16948 6120 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2021-08-04 20:36:55,657 basehttp  16948 9484 "GET /admin/django_celery_results/taskresult/1435/change/ HTTP/1.1" 200 31097
+INFO 2021-08-04 20:36:55,740 basehttp  16948 9484 "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+INFO 2021-08-04 20:36:55,749 basehttp  16948 14136 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+INFO 2021-08-04 20:36:55,787 basehttp  16948 14136 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2021-08-04 20:36:55,816 basehttp  16948 14136 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2021-08-04 20:36:55,861 basehttp  16948 15368 "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+INFO 2021-08-04 20:55:18,202 autoreload  16948 7080 C:\Users\Chokeup\PycharmProjects\pythonProject39\Forum\board\board\settings.py changed, reloading.
+INFO 2021-08-04 20:55:23,020 autoreload  10536 17308 Watching for file changes with StatReloader
+INFO 2021-08-04 20:55:30,893 autoreload  10536 17308 C:\Users\Chokeup\PycharmProjects\pythonProject39\Forum\board\board\settings.py changed, reloading.
+INFO 2021-08-04 20:55:35,340 autoreload  2240 5692 Watching for file changes with StatReloader
+INFO 2021-08-04 20:56:11,065 autoreload  2240 5692 C:\Users\Chokeup\PycharmProjects\pythonProject39\Forum\board\board\settings.py changed, reloading.
+INFO 2021-08-04 20:56:14,607 autoreload  16416 8960 Watching for file changes with StatReloader
+INFO 2021-08-04 21:06:30,991 autoreload  16416 8960 C:\Users\Chokeup\PycharmProjects\pythonProject39\Forum\board\board\settings.py changed, reloading.
+INFO 2021-08-04 21:06:34,846 autoreload  15196 18724 Watching for file changes with StatReloader
