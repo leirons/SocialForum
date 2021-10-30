@@ -26,3 +26,4 @@ class CustomUserManager(UserManager):
         user.clean()
         user.save(using=self._db)
         return user
+

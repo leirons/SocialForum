@@ -32,8 +32,14 @@ class CustomUser(AbstractUser):
                              null=True, blank=True)
     is_blocked = models.BooleanField('Заблокировать пользователя', default=False)
     subscribers = models.ManyToManyField('self', related_name='subscriptions', symmetrical=False, blank=True)
+    posts = models.IntegerField(default=0)
+    comments = models.IntegerField(default=0)
+
+
 
     objects = CustomUserManager()
+
+
 
     class Meta:
         verbose_name = 'Пользователя'
@@ -42,6 +48,12 @@ class CustomUser(AbstractUser):
     def clean(self):
         self.email = self.email.lower()
         super(CustomUser, self).clean()
+
+    def get_posts(self):
+        return self.posts
+
+    def get_comments(self):
+        return self.comments
 
     def __str__(self):
         return self.username

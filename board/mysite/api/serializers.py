@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from mysite.models import Theme,Comments,Post
 from custom_user.api.serializers import UserFieldSerializer
-
+from custom_user.models import CustomUser
 
 class ThemeSerializer(serializers.ModelSerializer):
     """Вывод Тем от пользователей"""
@@ -33,12 +33,9 @@ class GetPopularityOfPostsSerializer(serializers.ModelSerializer):
         fields = ['user','title','text','where_we_are','popularity']
 
 
-class CreatePostSerializator(serializers.ModelSerializer):
+class GetUserProfile(serializers.ModelSerializer):
+    username = serializers.CharField(max_length=150)
+    email = serializers.EmailField()
+    phone = serializers.CharField()
     class Meta:
-        model = Post
-        fields = ['title', 'text']
-
-class CreateLikeSerializator(serializers.ModelSerializer):
-    class Meta:
-        model = Comments
-        pass
+        model = CustomUser

@@ -2,6 +2,7 @@ from django.db import models
 from django.urls import reverse
 
 from board import settings
+from custom_user.models import CustomUser
 
 from .utils.bad_words import change_all_bad_words
 
@@ -52,7 +53,7 @@ class Post(models.Model):
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Дата создания')
     where_we_are = models.ForeignKey(Theme, on_delete=models.CASCADE, related_name='get_news', null=True, blank=True)
     popularity = models.IntegerField(default=0)
-
+    likes = models.IntegerField(default = 0)
 
     class Meta:
         ordering = ['created_at']
@@ -69,7 +70,7 @@ class Comments(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name='posts')
     body = models.TextField(max_length=500)
     created_on = models.DateTimeField(auto_now_add=True)
-    likes = models.ManyToManyField('StoorageLikes',on_delete=models.CASCADE,null=True)
+    likes = models.IntegerField(default=0)
 
     def __str__(self):
         return f'Пользователь {self.post}'
@@ -84,8 +85,4 @@ class Comments(models.Model):
         super(Comments, self).clean()
 
 
-class StoorageLikes(models.Model):
-    name = models.ForeignKey(settings.AUTH_USER_MODEL,on_delete=models.CASCADE,null=True,blank=True,related_name='likes')
 
-    def __str__(self):
-        return f'{self.name}'

@@ -4,21 +4,23 @@ from django.views.generic.edit import CreateView
 
 
 from custom_user.models import CustomUser
+
 from .filters import Filter
+
 from .models import *
 
 from .services import subscribelogic
 
 from django.contrib.auth.mixins import LoginRequiredMixin
-
 from django.core.paginator import Paginator
-
 from django.shortcuts import render
 from django.contrib import messages
-
 from django.conf import settings
-
 from django.urls import reverse_lazy
+
+
+from typing import Dict,Any
+
 import logging
 
 logger = logging.getLogger('django')
@@ -35,7 +37,7 @@ class MultipleModelView(TemplateView):
     """Shows all Subjects and Themes of the subject"""
     template_name = 'mysite/base_mysite.html'
 
-    def get_context_data(self):
+    def get_context_data(self) -> Dict[str,Any]:
         logger.info(f"The user {self.request.user.id} entered in the page ")
 
         filter_ = Filter(self.request.GET, queryset=Theme.objects.all())
@@ -51,7 +53,8 @@ class MultipleModelView(TemplateView):
 class Themes(TemplateView):
     template_name = 'mysite/themes.html'
 
-    def get_context_data(self, **kwargs):
+
+    def get_context_data(self, **kwargs) -> Dict[str,Any]:
         logger.info(f"The user {self.request.user.id} went to the page")
 
         context = super(Themes, self).get_context_data()
@@ -71,7 +74,7 @@ class Posts(TemplateView):
     template_name = 'mysite/posts.html'
 
 
-    def get_context_data(self, **kwargs):
+    def get_context_data(self, **kwargs) -> Dict[str,Any]:
 
         """
         Вывод комментариев в посте.
@@ -110,7 +113,7 @@ class EditComments(UpdateView):
     template_name = 'mysite/comments.html'
     fields = ['body']
 
-    def get_context_data(self, **kwargs):
+    def get_context_data(self, **kwargs) -> Dict[str,Any]:
         """Проверяем чей коммент, если юзера то разрешаем редактировать"""
         logger.info(f"На страницу зашел{self.request.user.id}")
         context = super().get_context_data(**kwargs)
@@ -130,7 +133,7 @@ class EditPost(LoginRequiredMixin, UpdateView):
     template_name = 'mysite/post_edit.html'
     fields = ['title', 'text']
 
-    def get_context_data(self, **kwargs):
+    def get_context_data(self, **kwargs) -> Dict[str,Any]:
         """Проверяем чей пост, если юзера то разрешаем редактировать"""
         context = super().get_context_data(**kwargs)
         login_user_id = self.request.user.pk
@@ -145,18 +148,16 @@ class EditPost(LoginRequiredMixin, UpdateView):
 
 
 class CreatePost(LoginRequiredMixin, CreateView):
-    # Сделать автоматический ввод данных с юзера кроме Body.
     model = Post
     fields = ['title', 'text']
     template_name = 'mysite/CreatePost.html'
     success_url = reverse_lazy('themes')
 
-    def form_valid(self, form):
+    def form_valid(self, form) -> super:
         obj = form.save(commit=False)
         obj.user_id = self.request.user.id
         get_slug = Theme.objects.get(slug=self.kwargs['slug'])
         obj.where_we_are_id = get_slug.id
-        obj.save()
         return super().form_valid(form)
 
 
@@ -166,11 +167,15 @@ class CreateComment(LoginRequiredMixin, CreateView):
     template_name = 'mysite/CreateComment.html'
     success_url = reverse_lazy('themes')
 
-    def form_valid(self, form):
+    def form_valid(self, form) -> super:
         obj = form.save(commit=False)
         obj.user_id = self.request.user.id
         obj.save()
         return super().form_valid(form)
+
+
+class Profile(LoginRequiredMixin,TemplateView):
+    pass
 
 
 def subscribe(request):
