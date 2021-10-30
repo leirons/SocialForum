@@ -53,7 +53,6 @@ INSTALLED_APPS = [
     # apps
     'mysite.apps.SiteConfig',
     'custom_user.apps.CustomUserConfig',
-    'helper.apps.HelperConfig',
     'storage.apps.StorageConfig',
     'chat.apps.ChatConfig'
 ]

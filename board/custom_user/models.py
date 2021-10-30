@@ -33,7 +33,7 @@ class CustomUser(AbstractUser):
     is_blocked = models.BooleanField('Заблокировать пользователя', default=False)
     subscribers = models.ManyToManyField('self', related_name='subscriptions', symmetrical=False, blank=True)
     posts = models.IntegerField(default=0)
-    comments = models.IntegerField(default=0)
+    commentaries = models.IntegerField(default=0)
 
 
 

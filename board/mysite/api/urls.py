@@ -6,5 +6,4 @@ urlpatterns = [
     path("theme/<int:pk>", ThemeDetailSerializerv.as_view()),
     path("comments/", CommentsCreate.as_view()),
     path('get_popularity/<int:pk>',GetPopularityPosts.as_view()),
-    path('create_post/<slug:slug>',CreatePost.as_view())
 ]

@@ -3,11 +3,11 @@ from django.views.generic.edit import UpdateView
 from django.views.generic.edit import CreateView
 
 
-from custom_user.models import CustomUser
 
 from .filters import Filter
 
 from .models import *
+from custom_user.models import CustomUser
 
 from .services import subscribelogic
 
@@ -128,6 +128,8 @@ class EditComments(UpdateView):
         return context
 
 
+
+
 class EditPost(LoginRequiredMixin, UpdateView):
     model = Post
     template_name = 'mysite/post_edit.html'
@@ -175,7 +177,11 @@ class CreateComment(LoginRequiredMixin, CreateView):
 
 
 class Profile(LoginRequiredMixin,TemplateView):
-    pass
+
+    def get_context_data(self, **kwargs):
+
+        context =  super(Profile, self).get_context_data()
+
 
 
 def subscribe(request):

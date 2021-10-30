@@ -13,7 +13,6 @@ urlpatterns = [
 
     path('', include('custom_user.urls')),
     path('mysite/', include('mysite.urls')),
-    path('helper/', include('helper.urls')),
 
     path('api/', include('custom_user.api.urls')),
     path('mysite/api/', include('mysite.api.urls')),

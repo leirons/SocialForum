@@ -19,7 +19,6 @@ admin.site.register(Subject, SubjectsDisplay)
 admin.site.register(Theme, ThemeDisplay)
 admin.site.register(Post)
 admin.site.register(Comments)
-admin.site.register(StoorageLikes)
 
 
 admin.site.register(MyPreference, PreferencesAdmin)

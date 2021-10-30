@@ -2,7 +2,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from mysite.models import Theme,Post
 from mysite.api.serializers import ThemeSerializer,ThemeDetailSerializer,\
-    AddCommentsSerializer,GetPopularityOfPostsSerializer,CreatePostSerializator
+    AddCommentsSerializer,GetPopularityOfPostsSerializer
 
 
 class ThemeSerializerv(APIView):
@@ -36,14 +36,7 @@ class GetPopularityPosts(APIView):
         return Response(serializer.data)
 
 
-class CreatePost(APIView)\
-        :
-    def post(self,request) ->Response:
-        post = CreatePostSerializator(data=request.data)
-        if post.is_valid():
-            post.save()
-            return Response(status=201)
-        return Response(status=400)
+
 
 class CreateLike(APIView):
     pass
