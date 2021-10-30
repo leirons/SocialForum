@@ -231,3 +231,6 @@ EMAIL_HOST_USER = 'your'
 EMAIL_HOST_PASSWORD = 'your'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+
+SEND_LOGS_TO = ('grecigor11@gmail.com',)
