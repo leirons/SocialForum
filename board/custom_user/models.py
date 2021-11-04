@@ -3,6 +3,9 @@ from django.contrib.auth.validators import UnicodeUsernameValidator
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
+from django.core.cache import cache
+import datetime
+from board import settings
 from .manager import CustomUserManager
 from .validators.username_validator import custom_username_validator
 
@@ -35,7 +38,19 @@ class CustomUser(AbstractUser):
     posts = models.IntegerField(default=0)
     commentaries = models.IntegerField(default=0)
 
+    def last_seen(self):
+        return cache.get('seen_%s' % self.user.username)
 
+    def online(self):
+        if self.last_seen():
+            now = datetime.datetime.now()
+            if now > self.last_seen() + datetime.timedelta(
+                    seconds=settings.USER_ONLINE_TIMEOUT):
+                return False
+            else:
+                return True
+        else:
+            return False
 
     objects = CustomUserManager()
 
