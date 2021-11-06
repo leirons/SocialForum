@@ -39,13 +39,13 @@ class CustomUser(AbstractUser):
     commentaries = models.IntegerField(default=0)
 
     def last_seen(self):
-        return cache.get('seen_%s' % self.user.username)
+        print(cache.get(self.username))
+        return cache.get('seen_%s' % self.username)
 
     def online(self):
         if self.last_seen():
             now = datetime.datetime.now()
-            if now > self.last_seen() + datetime.timedelta(
-                    seconds=settings.USER_ONLINE_TIMEOUT):
+            if now > self.last_seen() + datetime.timedelta(seconds=settings.USER_ONLINE_TIMEOUT):
                 return False
             else:
                 return True

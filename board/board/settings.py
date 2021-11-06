@@ -71,6 +71,8 @@ MIDDLEWARE = [
     'mysite.middleware.CheckIsUserBlocked',
     # lib middleware
     'debug_toolbar.middleware.DebugToolbarMiddleware',
+    "custom_user.middleware.ActiveUserMiddleware",
+
 ]
 
 ROOT_URLCONF = 'board.urls'
@@ -172,7 +174,7 @@ AUTHENTICATION_BACKENDS = (
 LOGIN_REDIRECT_URL = '/mysite/'
 LOGOUT_REDIRECT_URL = '/mysite/'
 
-MAILCHIMP_API_KEY = "8f57c6d1540ce46825b2c1502694a0dc-us6"
+MAILCHIMP_API_KEY = "8f57c6d1540ce46825b2c1502694a0dc-us6" # it's okay, you can use it :D
 MAILCHIMP_DATA_CENTER = "us6"
 MAILCHIMP_EMAIL_LIST_ID = "c09812f8c6"
 
@@ -232,5 +234,20 @@ EMAIL_HOST_PASSWORD = 'your'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
+
+CACHES = {
+        'default': {
+            'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+            'LOCATION': '127.0.0.1:11211',
+        }
+    }
+
+
+# Number of seconds of inactivity before a user is marked offline
+USER_ONLINE_TIMEOUT = 300
+
+# Number of seconds that we will keep track of inactive users for before
+# their last seen is removed from the cache
+USER_LASTSEEN_TIMEOUT = 60 * 60 * 24 * 7
 
 SEND_LOGS_TO = ('grecigor11@gmail.com',)

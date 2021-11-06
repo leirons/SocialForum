@@ -8,7 +8,14 @@
 <body>
     <a href="{% url 'create_comment' %}" style="color: red;text-transform: uppercase">Создать комментарий</a>
     {% for comment in page_obj.object_list %}
-        <h3>Пользователь: {{ comment.user__username }}</h3>
+        <h3>Пользователь: {{ comment.user__username }}
+
+        </h3>
+            {%if comment.online == True%}
+                Онлайн
+            {%else%}
+                Не онлайн
+            {%endif%}
         <p>{{ comment.body }}</p>
         <p>Дата публикации {{ comment.created_on|date:"d.m.Y H:i:s" }}</p>
      {% if comment.user_id == user_id %}

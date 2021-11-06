@@ -1,0 +1,1620 @@
+INFO 2021-10-30 22:19:28,711 autoreload  15436 11588 Watching for file changes with StatReloader
+INFO 2021-11-04 23:59:11,289 autoreload  7708 2500 Watching for file changes with StatReloader
+INFO 2021-11-06 21:57:07,032 autoreload  7584 16272 Watching for file changes with StatReloader
+INFO 2021-11-06 21:58:52,822 autoreload  7584 16272 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 21:58:56,774 autoreload  15504 12920 Watching for file changes with StatReloader
+ERROR 2021-11-06 21:59:05,936 log  15504 2060 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py", line 11, in process_request
+    if request.user_is_authenticated():
+AttributeError: 'WSGIRequest' object has no attribute 'user_is_authenticated'
+ERROR 2021-11-06 21:59:05,939 basehttp  15504 2060 "GET / HTTP/1.1" 500 70096
+ERROR 2021-11-06 21:59:06,830 log  15504 2060 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py", line 11, in process_request
+    if request.user_is_authenticated():
+AttributeError: 'WSGIRequest' object has no attribute 'user_is_authenticated'
+ERROR 2021-11-06 21:59:06,832 basehttp  15504 2060 "GET /favicon.ico HTTP/1.1" 500 70010
+INFO 2021-11-06 21:59:20,686 basehttp  15504 2060 "GET /mysite HTTP/1.1" 301 0
+ERROR 2021-11-06 21:59:20,749 log  15504 2060 Internal Server Error: /mysite/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py", line 11, in process_request
+    if request.user_is_authenticated():
+AttributeError: 'WSGIRequest' object has no attribute 'user_is_authenticated'
+ERROR 2021-11-06 21:59:20,750 basehttp  15504 2060 "GET /mysite/ HTTP/1.1" 500 70166
+ERROR 2021-11-06 21:59:20,991 log  15504 2060 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py", line 11, in process_request
+    if request.user_is_authenticated():
+AttributeError: 'WSGIRequest' object has no attribute 'user_is_authenticated'
+ERROR 2021-11-06 21:59:20,993 basehttp  15504 2060 "GET /favicon.ico HTTP/1.1" 500 70017
+INFO 2021-11-06 21:59:34,320 autoreload  15504 12920 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 21:59:40,366 autoreload  13368 4580 Watching for file changes with StatReloader
+INFO 2021-11-06 21:59:53,236 autoreload  13368 4580 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 21:59:57,077 autoreload  6336 14232 Watching for file changes with StatReloader
+INFO 2021-11-06 21:59:58,655 views  6336 12040 The user AnonymousUser entered on the page 
+INFO 2021-11-06 22:00:00,355 basehttp  6336 12040 "GET /mysite/ HTTP/1.1" 200 12732
+INFO 2021-11-06 22:00:00,432 basehttp  6336 12040 "GET /static/css/styles.css HTTP/1.1" 200 2320
+INFO 2021-11-06 22:00:00,433 basehttp  6336 9756 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 11461
+INFO 2021-11-06 22:00:00,453 basehttp  6336 13380 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2021-11-06 22:00:00,507 basehttp  6336 14408 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 10452
+INFO 2021-11-06 22:00:00,712 basehttp  6336 14408 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 2988
+WARNING 2021-11-06 22:00:01,043 log  6336 14408 Not Found: /favicon.ico
+WARNING 2021-11-06 22:00:01,044 basehttp  6336 14408 "GET /favicon.ico HTTP/1.1" 404 14468
+INFO 2021-11-06 22:00:57,623 autoreload  6336 14232 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 22:01:01,529 autoreload  10764 4084 Watching for file changes with StatReloader
+ERROR 2021-11-06 22:01:02,372 log  10764 1864 Internal Server Error: /mysite/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py", line 11, in process_request
+    if not request.user_is_authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'user_is_authenticated'
+ERROR 2021-11-06 22:01:02,375 basehttp  10764 1864 "GET /mysite/ HTTP/1.1" 500 71284
+INFO 2021-11-06 22:01:42,803 autoreload  10764 4084 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 22:01:47,257 autoreload  14236 1456 Watching for file changes with StatReloader
+INFO 2021-11-06 22:02:02,191 autoreload  14236 1456 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 22:02:06,324 autoreload  264 8040 Watching for file changes with StatReloader
+INFO 2021-11-06 22:02:07,316 views  264 6884 The user AnonymousUser entered on the page 
+INFO 2021-11-06 22:02:08,374 basehttp  264 6884 "GET /mysite/ HTTP/1.1" 200 12731
+INFO 2021-11-06 22:02:10,208 views  264 6884 The user None went to the page
+ERROR 2021-11-06 22:02:10,351 log  264 6884 Internal Server Error: /mysite/create_error
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 60, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-06 22:02:10,406 basehttp  264 6884 "GET /mysite/create_error HTTP/1.1" 500 96839
+INFO 2021-11-06 22:02:57,790 basehttp  264 6884 "GET /admin HTTP/1.1" 301 0
+INFO 2021-11-06 22:02:57,884 basehttp  264 6884 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-11-06 22:02:58,208 basehttp  264 6884 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 12760
+INFO 2021-11-06 22:02:58,287 basehttp  264 7776 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2021-11-06 22:02:58,289 basehttp  264 13916 "GET /static/admin/css/login.css HTTP/1.1" 200 939
+INFO 2021-11-06 22:02:58,289 basehttp  264 6884 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2021-11-06 22:02:58,291 basehttp  264 7088 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2021-11-06 22:02:58,308 basehttp  264 14288 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-11-06 22:02:58,319 basehttp  264 7088 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-11-06 22:02:58,396 basehttp  264 7088 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-11-06 22:02:58,403 basehttp  264 14288 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-11-06 22:03:04,344 basehttp  264 14288 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-11-06 22:03:04,684 basehttp  264 14288 "GET /admin/ HTTP/1.1" 200 24735
+INFO 2021-11-06 22:03:04,737 basehttp  264 14288 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2021-11-06 22:03:04,773 basehttp  264 7088 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-11-06 22:03:04,774 basehttp  264 14288 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-11-06 22:03:04,832 basehttp  264 14288 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-11-06 22:03:11,734 basehttp  264 14288 - Broken pipe from ('127.0.0.1', 52381)
+
+INFO 2021-11-06 22:03:11,897 basehttp  264 7088 "GET /admin/mysite/post/ HTTP/1.1" 200 23122
+INFO 2021-11-06 22:03:11,964 basehttp  264 7776 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2021-11-06 22:03:12,006 basehttp  264 7088 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+INFO 2021-11-06 22:03:12,015 basehttp  264 8512 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2021-11-06 22:03:12,018 basehttp  264 7776 "GET /static/admin/js/actions.js HTTP/1.1" 200 7664
+INFO 2021-11-06 22:03:12,023 basehttp  264 11556 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2021-11-06 22:03:12,063 basehttp  264 7088 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2021-11-06 22:03:12,066 basehttp  264 8512 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2021-11-06 22:03:12,104 basehttp  264 6884 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2021-11-06 22:03:12,106 basehttp  264 13916 "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+INFO 2021-11-06 22:03:12,157 basehttp  264 7776 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2021-11-06 22:03:12,201 basehttp  264 7776 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2021-11-06 22:03:14,272 basehttp  264 7776 "GET /admin/mysite/post/add/ HTTP/1.1" 200 27828
+INFO 2021-11-06 22:03:14,324 basehttp  264 7776 "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+INFO 2021-11-06 22:03:14,346 basehttp  264 13916 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2021-11-06 22:03:14,346 basehttp  264 7776 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+INFO 2021-11-06 22:03:14,368 basehttp  264 7776 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2021-11-06 22:03:14,372 basehttp  264 6884 "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+INFO 2021-11-06 22:03:20,772 basehttp  264 6884 "GET /admin/mysite/theme/add/?_to_field=id&_popup=1 HTTP/1.1" 200 16857
+INFO 2021-11-06 22:03:20,845 basehttp  264 6884 "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+INFO 2021-11-06 22:03:34,781 basehttp  264 6884 "GET /admin/mysite/subject/add/?_to_field=id&_popup=1 HTTP/1.1" 200 13556
+INFO 2021-11-06 22:03:34,866 basehttp  264 6884 "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+INFO 2021-11-06 22:03:36,682 basehttp  264 6884 "POST /admin/mysite/subject/add/?_to_field=id&_popup=1 HTTP/1.1" 200 10864
+INFO 2021-11-06 22:03:36,733 basehttp  264 6884 "GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+INFO 2021-11-06 22:03:39,261 basehttp  264 6884 - Broken pipe from ('127.0.0.1', 52331)
+
+INFO 2021-11-06 22:03:39,804 basehttp  264 7776 "POST /admin/mysite/theme/add/?_to_field=id&_popup=1 HTTP/1.1" 200 10868
+INFO 2021-11-06 22:03:44,126 basehttp  264 7776 "POST /admin/mysite/post/add/ HTTP/1.1" 302 0
+INFO 2021-11-06 22:03:44,495 basehttp  264 7776 "GET /admin/mysite/post/ HTTP/1.1" 200 24574
+INFO 2021-11-06 22:03:44,576 basehttp  264 7776 "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+INFO 2021-11-06 22:03:44,619 basehttp  264 7776 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+WARNING 2021-11-06 22:03:47,811 log  264 7776 Not Found: /
+WARNING 2021-11-06 22:03:47,812 basehttp  264 7776 "GET / HTTP/1.1" 404 14406
+INFO 2021-11-06 22:03:53,377 views  264 7776 The user grecigor entered on the page 
+INFO 2021-11-06 22:03:53,660 basehttp  264 7776 "GET /mysite/ HTTP/1.1" 200 13271
+INFO 2021-11-06 22:03:54,852 views  264 7776 The user 1 went to the page
+INFO 2021-11-06 22:03:55,229 basehttp  264 7776 "GET /mysite/asdsad HTTP/1.1" 200 10956
+INFO 2021-11-06 22:03:56,400 basehttp  264 7776 "GET /mysite/posts/1 HTTP/1.1" 301 0
+INFO 2021-11-06 22:03:56,419 views  264 7776 The user went to the page: 1
+INFO 2021-11-06 22:03:56,826 basehttp  264 7776 "GET /mysite/posts/1/ HTTP/1.1" 200 10818
+INFO 2021-11-06 22:03:59,142 basehttp  264 7776 "GET /mysite/posts/post_edit/create_comment/ HTTP/1.1" 200 11303
+INFO 2021-11-06 22:04:05,134 basehttp  264 7776 "POST /mysite/posts/post_edit/create_comment/ HTTP/1.1" 302 0
+INFO 2021-11-06 22:04:05,158 views  264 7776 The user grecigor entered on the page 
+INFO 2021-11-06 22:04:05,527 basehttp  264 7776 "GET /mysite/ HTTP/1.1" 200 13271
+INFO 2021-11-06 22:04:07,157 views  264 7776 The user 1 went to the page
+INFO 2021-11-06 22:04:07,728 basehttp  264 7776 "GET /mysite/asdsad HTTP/1.1" 200 11044
+INFO 2021-11-06 22:04:08,906 views  264 7776 The user went to the page: 1
+INFO 2021-11-06 22:04:09,284 basehttp  264 7776 "GET /mysite/posts/1/ HTTP/1.1" 200 11083
+INFO 2021-11-06 22:04:54,003 views  264 7776 The user went to the page: 1
+INFO 2021-11-06 22:04:54,146 autoreload  264 8040 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:04:58,898 autoreload  13224 8656 Watching for file changes with StatReloader
+INFO 2021-11-06 22:05:04,752 views  13224 15300 The user went to the page: 1
+ERROR 2021-11-06 22:05:06,504 log  13224 15300 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 102, in get_context_data
+    print(comments.user_id)
+AttributeError: 'QuerySet' object has no attribute 'user_id'
+INFO 2021-11-06 22:05:06,754 views  13224 8812 The user went to the page: 1
+INFO 2021-11-06 22:05:06,780 basehttp  13224 15300 - Broken pipe from ('127.0.0.1', 52458)
+
+ERROR 2021-11-06 22:05:07,079 log  13224 8812 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 102, in get_context_data
+    print(comments.user_id)
+AttributeError: 'QuerySet' object has no attribute 'user_id'
+ERROR 2021-11-06 22:05:07,202 basehttp  13224 8812 "GET /mysite/posts/1/ HTTP/1.1" 500 98147
+INFO 2021-11-06 22:05:14,008 autoreload  13224 8656 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:05:18,497 autoreload  11352 13012 Watching for file changes with StatReloader
+INFO 2021-11-06 22:05:19,506 views  11352 8840 The user went to the page: 1
+ERROR 2021-11-06 22:05:20,603 log  11352 8840 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 102, in get_context_data
+    print(comments.user)
+AttributeError: 'QuerySet' object has no attribute 'user'
+ERROR 2021-11-06 22:05:20,747 basehttp  11352 8840 "GET /mysite/posts/1/ HTTP/1.1" 500 98130
+INFO 2021-11-06 22:05:25,602 views  11352 8840 The user went to the page: 1
+INFO 2021-11-06 22:05:25,854 autoreload  11352 13012 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:05:30,971 autoreload  15596 10848 Watching for file changes with StatReloader
+INFO 2021-11-06 22:05:36,469 views  15596 7796 The user went to the page: 1
+INFO 2021-11-06 22:05:37,660 basehttp  15596 7796 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 22:05:47,231 autoreload  15596 10848 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:05:52,532 autoreload  7672 14356 Watching for file changes with StatReloader
+INFO 2021-11-06 22:05:53,216 views  7672 4188 The user went to the page: 1
+INFO 2021-11-06 22:05:54,461 basehttp  7672 4188 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 22:06:14,213 autoreload  7672 14356 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:06:18,366 autoreload  4016 6004 Watching for file changes with StatReloader
+INFO 2021-11-06 22:06:19,227 views  4016 2916 The user went to the page: 1
+ERROR 2021-11-06 22:06:20,422 log  4016 2916 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 102, in get_context_data
+    print(comments[0]["user__username"].online())
+AttributeError: 'str' object has no attribute 'online'
+ERROR 2021-11-06 22:06:20,560 basehttp  4016 2916 "GET /mysite/posts/1/ HTTP/1.1" 500 98188
+INFO 2021-11-06 22:06:25,332 autoreload  4016 6004 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:06:29,981 autoreload  15292 10188 Watching for file changes with StatReloader
+INFO 2021-11-06 22:06:30,680 views  15292 14360 The user went to the page: 1
+INFO 2021-11-06 22:06:31,853 basehttp  15292 14360 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 22:07:03,135 autoreload  15292 10188 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:07:08,279 autoreload  10964 11088 Watching for file changes with StatReloader
+INFO 2021-11-06 22:07:09,077 views  10964 4284 The user went to the page: 1
+INFO 2021-11-06 22:07:10,224 basehttp  10964 4284 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 22:08:36,213 autoreload  10964 11088 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:08:41,170 autoreload  8840 8880 Watching for file changes with StatReloader
+INFO 2021-11-06 22:08:42,086 views  8840 13068 The user went to the page: 1
+INFO 2021-11-06 22:08:43,695 basehttp  8840 13068 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 22:08:54,073 autoreload  8840 8880 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:08:58,479 autoreload  10804 9808 Watching for file changes with StatReloader
+INFO 2021-11-06 22:08:59,269 views  10804 11948 The user went to the page: 1
+INFO 2021-11-06 22:09:00,511 basehttp  10804 11948 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 22:09:05,842 autoreload  10804 9808 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:09:10,354 autoreload  13972 1360 Watching for file changes with StatReloader
+INFO 2021-11-06 22:09:11,078 views  13972 8292 The user went to the page: 1
+ERROR 2021-11-06 22:09:12,333 log  13972 8292 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 104, in get_context_data
+    print(user_object.online())
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 45, in online
+    if self.last_seen():
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 42, in last_seen
+    return cache.get('seen_%s' % self.user.username)
+AttributeError: 'RelatedManager' object has no attribute 'username'
+ERROR 2021-11-06 22:09:12,507 basehttp  13972 8292 "GET /mysite/posts/1/ HTTP/1.1" 500 105955
+INFO 2021-11-06 22:09:23,642 autoreload  13972 1360 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:09:29,489 autoreload  11692 11084 Watching for file changes with StatReloader
+INFO 2021-11-06 22:09:35,097 views  11692 6424 The user went to the page: 1
+INFO 2021-11-06 22:09:36,386 basehttp  11692 6424 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 22:10:10,537 autoreload  11692 11084 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:10:14,619 autoreload  1584 2804 Watching for file changes with StatReloader
+INFO 2021-11-06 22:10:15,545 views  1584 8304 The user went to the page: 1
+INFO 2021-11-06 22:10:16,686 basehttp  1584 8304 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 22:10:43,123 autoreload  1584 2804 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:10:46,954 autoreload  12668 10656 Watching for file changes with StatReloader
+INFO 2021-11-06 22:10:47,640 views  12668 11904 The user went to the page: 1
+ERROR 2021-11-06 22:10:48,711 log  12668 11904 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 105, in get_context_data
+    print(CustomUser.online(user_object))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 45, in online
+    if self.last_seen():
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 42, in last_seen
+    return cache.get('seen_%s' % self.user.username)
+AttributeError: 'RelatedManager' object has no attribute 'username'
+ERROR 2021-11-06 22:10:48,871 basehttp  12668 11904 "GET /mysite/posts/1/ HTTP/1.1" 500 105937
+INFO 2021-11-06 22:10:56,702 views  12668 11904 The user went to the page: 1
+ERROR 2021-11-06 22:10:57,170 log  12668 11904 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 105, in get_context_data
+    print(CustomUser.online())
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 45, in online
+    if self.last_seen():
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 42, in last_seen
+    return cache.get('seen_%s' % self.user.username)
+AttributeError: 'RelatedManager' object has no attribute 'username'
+INFO 2021-11-06 22:10:57,375 autoreload  12668 10656 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:11:01,537 autoreload  14656 10876 Watching for file changes with StatReloader
+INFO 2021-11-06 22:11:02,364 views  14656 14752 The user went to the page: 1
+ERROR 2021-11-06 22:11:03,384 log  14656 14752 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 105, in get_context_data
+    print(CustomUser.online())
+TypeError: online() missing 1 required positional argument: 'self'
+ERROR 2021-11-06 22:11:03,527 basehttp  14656 14752 "GET /mysite/posts/1/ HTTP/1.1" 500 98451
+INFO 2021-11-06 22:11:41,042 autoreload  14656 10876 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:11:45,467 autoreload  15948 12628 Watching for file changes with StatReloader
+INFO 2021-11-06 22:11:46,335 views  15948 6440 The user went to the page: 1
+ERROR 2021-11-06 22:11:47,400 log  15948 6440 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 105, in get_context_data
+    user_object.online()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 45, in online
+    if self.last_seen():
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 42, in last_seen
+    return cache.get('seen_%s' % self.user.username)
+AttributeError: 'RelatedManager' object has no attribute 'username'
+ERROR 2021-11-06 22:11:47,549 basehttp  15948 6440 "GET /mysite/posts/1/ HTTP/1.1" 500 105903
+INFO 2021-11-06 22:11:49,494 views  15948 6440 The user went to the page: 1
+ERROR 2021-11-06 22:11:49,863 log  15948 6440 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 105, in get_context_data
+    user_object.online()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 45, in online
+    if self.last_seen():
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 42, in last_seen
+    return cache.get('seen_%s' % self.user.username)
+AttributeError: 'RelatedManager' object has no attribute 'username'
+ERROR 2021-11-06 22:11:49,981 basehttp  15948 6440 "GET /mysite/posts/1/ HTTP/1.1" 500 105902
+INFO 2021-11-06 22:11:53,920 views  15948 6440 The user grecigor entered on the page 
+INFO 2021-11-06 22:11:54,198 basehttp  15948 6440 "GET /mysite/ HTTP/1.1" 200 13271
+INFO 2021-11-06 22:11:59,362 basehttp  15948 6440 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-06 22:11:59,367 views  15948 6440 The user AnonymousUser entered on the page 
+INFO 2021-11-06 22:11:59,565 basehttp  15948 6440 "GET /mysite/ HTTP/1.1" 200 13354
+INFO 2021-11-06 22:12:01,290 basehttp  15948 6440 "GET /login/ HTTP/1.1" 200 12574
+INFO 2021-11-06 22:12:03,093 basehttp  15948 6440 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-06 22:12:03,113 views  15948 6440 The user grecigor entered on the page 
+INFO 2021-11-06 22:12:03,334 basehttp  15948 6440 "GET /mysite/ HTTP/1.1" 200 13271
+INFO 2021-11-06 22:12:11,115 views  15948 6440 The user 1 went to the page
+INFO 2021-11-06 22:12:11,534 basehttp  15948 6440 "GET /mysite/asdsad HTTP/1.1" 200 11044
+INFO 2021-11-06 22:12:14,203 views  15948 6440 The user went to the page: 1
+ERROR 2021-11-06 22:12:14,501 log  15948 6440 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 105, in get_context_data
+    user_object.online()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 45, in online
+    if self.last_seen():
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 42, in last_seen
+    return cache.get('seen_%s' % self.user.username)
+AttributeError: 'RelatedManager' object has no attribute 'username'
+ERROR 2021-11-06 22:12:14,697 basehttp  15948 6440 "GET /mysite/posts/1/ HTTP/1.1" 500 105765
+INFO 2021-11-06 22:13:25,182 autoreload  15948 12628 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\manager.py changed, reloading.
+INFO 2021-11-06 22:13:29,701 autoreload  11612 12088 Watching for file changes with StatReloader
+INFO 2021-11-06 22:14:11,328 autoreload  11612 12088 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\manager.py changed, reloading.
+INFO 2021-11-06 22:14:16,739 autoreload  6584 5320 Watching for file changes with StatReloader
+INFO 2021-11-06 22:14:17,632 views  6584 12232 The user 1 went to the page
+INFO 2021-11-06 22:14:20,505 basehttp  6584 12232 "GET /mysite/asdsad HTTP/1.1" 200 11045
+INFO 2021-11-06 22:14:21,925 views  6584 12232 The user went to the page: 1
+ERROR 2021-11-06 22:14:22,303 log  6584 12232 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 104, in get_context_data
+    user_object.online()
+AttributeError: 'CustomUser' object has no attribute 'online'
+ERROR 2021-11-06 22:14:22,482 basehttp  6584 12232 "GET /mysite/posts/1/ HTTP/1.1" 500 98349
+INFO 2021-11-06 22:14:34,834 autoreload  6584 5320 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py changed, reloading.
+INFO 2021-11-06 22:14:39,362 autoreload  15452 5276 Watching for file changes with StatReloader
+INFO 2021-11-06 22:15:14,045 autoreload  15452 5276 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\manager.py changed, reloading.
+INFO 2021-11-06 22:15:18,240 autoreload  2000 7532 Watching for file changes with StatReloader
+INFO 2021-11-06 22:15:19,423 views  2000 5080 The user went to the page: 1
+ERROR 2021-11-06 22:15:20,412 log  2000 5080 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 104, in get_context_data
+    user_object.online()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 45, in online
+    if self.last_seen():
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 42, in last_seen
+    return cache.get('seen_%s' % self.user.username)
+AttributeError: 'RelatedManager' object has no attribute 'username'
+ERROR 2021-11-06 22:15:20,547 basehttp  2000 5080 "GET /mysite/posts/1/ HTTP/1.1" 500 105921
+INFO 2021-11-06 22:15:35,083 autoreload  2000 7532 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:15:39,602 autoreload  3784 7776 Watching for file changes with StatReloader
+INFO 2021-11-06 22:15:41,456 views  3784 2240 The user went to the page: 1
+INFO 2021-11-06 22:15:42,809 basehttp  3784 2240 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 22:16:28,877 autoreload  3784 7776 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:16:35,588 autoreload  15456 2880 Watching for file changes with StatReloader
+INFO 2021-11-06 22:16:36,429 views  15456 3936 The user went to the page: 1
+INFO 2021-11-06 22:16:37,789 basehttp  15456 3936 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 22:16:56,560 autoreload  15456 2880 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:17:00,524 autoreload  11000 16212 Watching for file changes with StatReloader
+INFO 2021-11-06 22:17:40,077 autoreload  11000 16212 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:17:44,905 autoreload  12704 10116 Watching for file changes with StatReloader
+INFO 2021-11-06 22:17:45,767 views  12704 15856 The user went to the page: 1
+ERROR 2021-11-06 22:17:46,905 log  12704 15856 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 104, in get_context_data
+    print(user_object.last_seen())
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 42, in last_seen
+    return cache.get('seen_%s' % self.user.username)
+AttributeError: 'RelatedManager' object has no attribute 'username'
+ERROR 2021-11-06 22:17:47,043 basehttp  12704 15856 "GET /mysite/posts/1/ HTTP/1.1" 500 102369
+INFO 2021-11-06 22:21:17,560 autoreload  12704 10116 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:21:21,599 autoreload  13972 2244 Watching for file changes with StatReloader
+INFO 2021-11-06 22:21:22,321 views  13972 9540 The user went to the page: 1
+ERROR 2021-11-06 22:21:23,386 log  13972 9540 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 104, in get_context_data
+    print(user_object.objects.last_seen())
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\manager.py", line 179, in __get__
+    raise AttributeError("Manager isn't accessible via %s instances" % cls.__name__)
+AttributeError: Manager isn't accessible via CustomUser instances
+ERROR 2021-11-06 22:21:23,530 basehttp  13972 9540 "GET /mysite/posts/1/ HTTP/1.1" 500 102603
+INFO 2021-11-06 22:21:49,754 autoreload  13972 2244 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:21:54,015 autoreload  8148 11360 Watching for file changes with StatReloader
+INFO 2021-11-06 22:22:23,907 views  8148 7980 The user went to the page: 1
+ERROR 2021-11-06 22:22:24,889 log  8148 7980 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 104, in get_context_data
+    print(user_object.last_seen())
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 42, in last_seen
+    return cache.get('seen_%s' % self.user.username)
+AttributeError: 'RelatedManager' object has no attribute 'username'
+ERROR 2021-11-06 22:22:25,045 basehttp  8148 7980 "GET /mysite/posts/1/ HTTP/1.1" 500 102369
+INFO 2021-11-06 22:23:14,235 autoreload  8148 11360 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:23:18,647 autoreload  5200 10084 Watching for file changes with StatReloader
+INFO 2021-11-06 22:23:19,649 views  5200 10788 The user went to the page: 1
+INFO 2021-11-06 22:23:21,441 basehttp  5200 10788 "GET /mysite/posts/1/ HTTP/1.1" 200 11085
+INFO 2021-11-06 22:23:58,304 views  5200 10788 The user went to the page: 1
+INFO 2021-11-06 22:23:58,388 autoreload  5200 10084 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:24:02,297 autoreload  10836 11824 Watching for file changes with StatReloader
+INFO 2021-11-06 22:24:03,060 views  10836 8088 The user went to the page: 1
+ERROR 2021-11-06 22:24:04,093 log  10836 8088 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 104, in get_context_data
+    print(user_object.online())
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 45, in online
+    if self.last_seen():
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 42, in last_seen
+    return cache.get('seen_%s' % self.user.username)
+AttributeError: 'RelatedManager' object has no attribute 'username'
+ERROR 2021-11-06 22:24:04,239 basehttp  10836 8088 "GET /mysite/posts/1/ HTTP/1.1" 500 105935
+INFO 2021-11-06 22:24:26,298 views  10836 8088 The user went to the page: 1
+ERROR 2021-11-06 22:24:26,582 log  10836 8088 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 104, in get_context_data
+    print(user_object.online())
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 45, in online
+    if self.last_seen():
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 42, in last_seen
+    return cache.get('seen_%s' % self.user.username)
+AttributeError: 'RelatedManager' object has no attribute 'username'
+ERROR 2021-11-06 22:24:26,715 basehttp  10836 8088 "GET /mysite/posts/1/ HTTP/1.1" 500 105934
+INFO 2021-11-06 22:27:09,695 autoreload  10836 11824 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:27:14,496 autoreload  7868 16176 Watching for file changes with StatReloader
+INFO 2021-11-06 22:27:30,784 autoreload  7868 16176 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:27:36,547 autoreload  9468 10684 Watching for file changes with StatReloader
+INFO 2021-11-06 22:27:38,005 views  9468 15844 The user went to the page: 1
+ERROR 2021-11-06 22:27:39,144 log  9468 15844 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 104, in get_context_data
+    print(user_object.get())
+AttributeError: 'CustomUser' object has no attribute 'get'
+ERROR 2021-11-06 22:27:39,296 basehttp  9468 15844 "GET /mysite/posts/1/ HTTP/1.1" 500 98457
+INFO 2021-11-06 22:27:43,546 autoreload  9468 10684 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:27:48,970 autoreload  13200 13244 Watching for file changes with StatReloader
+INFO 2021-11-06 22:28:04,968 autoreload  13200 13244 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:28:08,615 autoreload  14512 16280 Watching for file changes with StatReloader
+INFO 2021-11-06 22:29:14,310 views  14512 11708 The user went to the page: 1
+ERROR 2021-11-06 22:29:15,342 log  14512 11708 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 104, in get_context_data
+    print(user_object.online())
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 45, in online
+    if self.last_seen():
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 42, in last_seen
+    return cache.get('seen_%s' % self.user.username)
+AttributeError: 'RelatedManager' object has no attribute 'username'
+ERROR 2021-11-06 22:29:15,476 basehttp  14512 11708 "GET /mysite/posts/1/ HTTP/1.1" 500 105909
+INFO 2021-11-06 22:30:25,551 autoreload  14512 16280 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:30:29,441 autoreload  2636 9760 Watching for file changes with StatReloader
+INFO 2021-11-06 22:30:30,233 views  2636 7328 The user went to the page: 1
+ERROR 2021-11-06 22:30:31,280 log  2636 7328 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 103, in get_context_data
+    user_object = CustomUser.objects.get(pk=1).online()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 45, in online
+    if self.last_seen():
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py", line 42, in last_seen
+    return cache.get('seen_%s' % self.user.username)
+AttributeError: 'RelatedManager' object has no attribute 'username'
+ERROR 2021-11-06 22:30:31,421 basehttp  2636 7328 "GET /mysite/posts/1/ HTTP/1.1" 500 105773
+INFO 2021-11-06 22:30:59,783 autoreload  2636 9760 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:31:04,230 autoreload  12732 7044 Watching for file changes with StatReloader
+INFO 2021-11-06 22:37:09,444 autoreload  12732 7044 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py changed, reloading.
+INFO 2021-11-06 22:37:16,025 autoreload  10252 2804 Watching for file changes with StatReloader
+INFO 2021-11-06 22:37:24,180 views  10252 10880 The user went to the page: 1
+INFO 2021-11-06 22:37:26,649 basehttp  10252 10880 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 22:37:56,831 autoreload  10252 2804 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:38:02,665 autoreload  7644 14492 Watching for file changes with StatReloader
+INFO 2021-11-06 22:38:03,540 views  7644 15936 The user went to the page: 1
+INFO 2021-11-06 22:38:05,018 basehttp  7644 15936 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 22:40:02,136 views  7644 12636 The user went to the page: 1
+INFO 2021-11-06 22:40:02,853 basehttp  7644 12636 "GET /mysite/posts/1/ HTTP/1.1" 200 11083
+INFO 2021-11-06 22:40:05,169 views  7644 12636 The user went to the page: 1
+INFO 2021-11-06 22:40:05,972 basehttp  7644 12636 "GET /mysite/posts/1/ HTTP/1.1" 200 11083
+INFO 2021-11-06 22:40:40,898 autoreload  7644 14492 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-06 22:40:47,631 autoreload  14452 5152 Watching for file changes with StatReloader
+INFO 2021-11-06 22:40:50,797 views  14452 8404 The user went to the page: 1
+INFO 2021-11-06 22:40:53,166 basehttp  14452 8404 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 22:42:10,614 autoreload  14452 5152 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 22:42:17,020 autoreload  10056 10408 Watching for file changes with StatReloader
+INFO 2021-11-06 22:42:20,127 views  10056 14356 The user went to the page: 1
+INFO 2021-11-06 22:42:21,403 basehttp  10056 14356 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 22:42:34,680 autoreload  10056 10408 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 22:42:44,297 autoreload  9004 8004 Watching for file changes with StatReloader
+INFO 2021-11-06 22:42:48,013 views  9004 5448 The user went to the page: 1
+INFO 2021-11-06 22:42:51,375 basehttp  9004 5448 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 22:42:53,410 views  9004 5448 The user went to the page: 1
+INFO 2021-11-06 22:42:54,317 basehttp  9004 5448 "GET /mysite/posts/1/ HTTP/1.1" 200 11083
+INFO 2021-11-06 22:43:01,783 autoreload  9004 8004 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 22:43:08,839 autoreload  10348 1244 Watching for file changes with StatReloader
+INFO 2021-11-06 22:43:13,043 views  10348 13636 The user went to the page: 1
+INFO 2021-11-06 22:43:15,038 basehttp  10348 13636 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 22:44:20,156 autoreload  10348 1244 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py changed, reloading.
+INFO 2021-11-06 22:44:31,826 autoreload  15348 10516 Watching for file changes with StatReloader
+INFO 2021-11-06 22:44:35,230 views  15348 3576 The user went to the page: 1
+INFO 2021-11-06 22:44:37,248 basehttp  15348 3576 "GET /mysite/posts/1/ HTTP/1.1" 200 11085
+INFO 2021-11-06 22:44:49,549 views  15348 6012 The user went to the page: 1
+INFO 2021-11-06 22:44:50,078 basehttp  15348 6012 "GET /mysite/posts/1/ HTTP/1.1" 200 11083
+INFO 2021-11-06 22:44:50,306 autoreload  15348 10516 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py changed, reloading.
+INFO 2021-11-06 22:44:59,314 autoreload  7284 15280 Watching for file changes with StatReloader
+INFO 2021-11-06 22:45:02,526 views  7284 7372 The user went to the page: 1
+INFO 2021-11-06 22:45:04,561 basehttp  7284 7372 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 22:45:38,952 autoreload  7284 15280 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\models.py changed, reloading.
+INFO 2021-11-06 22:45:50,085 autoreload  9576 1320 Watching for file changes with StatReloader
+INFO 2021-11-06 22:51:09,676 autoreload  9576 1320 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 22:51:16,125 autoreload  15564 588 Watching for file changes with StatReloader
+INFO 2021-11-06 23:01:51,200 views  15564 5008 The user went to the page: 1
+INFO 2021-11-06 23:01:53,707 basehttp  15564 5008 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 23:02:06,487 autoreload  15564 588 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 23:02:15,611 autoreload  5848 4736 Watching for file changes with StatReloader
+ERROR 2021-11-06 23:02:19,406 log  5848 11168 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py", line 13, in process_request
+    if request.user_is_authenticated():
+AttributeError: 'WSGIRequest' object has no attribute 'user_is_authenticated'
+ERROR 2021-11-06 23:02:19,413 basehttp  5848 11168 "GET /mysite/posts/1/ HTTP/1.1" 500 71301
+INFO 2021-11-06 23:04:35,979 autoreload  5848 4736 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 23:04:41,930 autoreload  976 2064 Watching for file changes with StatReloader
+ERROR 2021-11-06 23:06:53,728 log  976 11708 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py", line 13, in process_request
+    print(request.user_is_authenticated)
+AttributeError: 'WSGIRequest' object has no attribute 'user_is_authenticated'
+ERROR 2021-11-06 23:06:53,735 basehttp  976 11708 "GET /mysite/posts/1/ HTTP/1.1" 500 71462
+INFO 2021-11-06 23:09:45,822 autoreload  976 2064 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\board\settings.py changed, reloading.
+INFO 2021-11-06 23:09:56,261 autoreload  15648 13480 Watching for file changes with StatReloader
+ERROR 2021-11-06 23:09:57,405 log  15648 6388 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py", line 13, in process_request
+    print(request.user_is_authenticated)
+AttributeError: 'WSGIRequest' object has no attribute 'user_is_authenticated'
+ERROR 2021-11-06 23:09:57,531 basehttp  15648 6388 "GET /mysite/posts/1/ HTTP/1.1" 500 81884
+INFO 2021-11-06 23:10:46,381 autoreload  15648 13480 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 23:10:54,066 autoreload  10924 1108 Watching for file changes with StatReloader
+INFO 2021-11-06 23:11:16,441 autoreload  10924 1108 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 23:11:23,395 autoreload  3680 14600 Watching for file changes with StatReloader
+INFO 2021-11-06 23:16:20,273 autoreload  14364 15536 Watching for file changes with StatReloader
+INFO 2021-11-06 23:17:15,741 autoreload  14364 15536 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 23:17:23,739 autoreload  5960 6040 Watching for file changes with StatReloader
+ERROR 2021-11-06 23:21:14,144 log  5960 16276 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py", line 13, in process_request
+    if request.user_is_authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'user_is_authenticated'
+ERROR 2021-11-06 23:21:14,255 basehttp  5960 16276 "GET /mysite/posts/1/ HTTP/1.1" 500 81835
+ERROR 2021-11-06 23:28:20,598 log  5960 2020 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py", line 13, in process_request
+    if request.user_is_authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'user_is_authenticated'
+ERROR 2021-11-06 23:28:20,675 basehttp  5960 2020 "GET /mysite/posts/1/ HTTP/1.1" 500 81835
+INFO 2021-11-06 23:28:28,681 autoreload  5960 6040 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 23:29:15,304 autoreload  11148 9880 Watching for file changes with StatReloader
+ERROR 2021-11-06 23:29:37,181 log  11148 8520 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py", line 24, in process_request
+    if request.user_is_authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'user_is_authenticated'
+ERROR 2021-11-06 23:29:37,438 basehttp  11148 8520 "GET /mysite/posts/1/ HTTP/1.1" 500 81835
+INFO 2021-11-06 23:36:01,084 autoreload  2952 10956 Watching for file changes with StatReloader
+ERROR 2021-11-06 23:36:17,663 log  2952 2632 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py", line 24, in process_request
+    if request.user_is.authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'user_is'
+ERROR 2021-11-06 23:36:17,784 basehttp  2952 2632 "GET /mysite/posts/1/ HTTP/1.1" 500 81779
+ERROR 2021-11-06 23:36:44,709 log  2952 2632 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py", line 24, in process_request
+AttributeError: 'WSGIRequest' object has no attribute 'user_is'
+ERROR 2021-11-06 23:36:44,756 basehttp  2952 2632 "GET /mysite/posts/1/ HTTP/1.1" 500 79923
+INFO 2021-11-06 23:36:44,768 autoreload  2952 10956 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 23:36:50,269 autoreload  15480 7524 Watching for file changes with StatReloader
+ERROR 2021-11-06 23:36:51,447 log  15480 12788 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py", line 13, in process_request
+    if request.user_is.authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'user_is'
+ERROR 2021-11-06 23:36:51,548 basehttp  15480 12788 "GET /mysite/posts/1/ HTTP/1.1" 500 81778
+INFO 2021-11-06 23:37:22,423 autoreload  15480 7524 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 23:37:30,759 autoreload  10312 13068 Watching for file changes with StatReloader
+INFO 2021-11-06 23:37:49,124 autoreload  10312 13068 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 23:37:54,168 autoreload  7664 15288 Watching for file changes with StatReloader
+INFO 2021-11-06 23:37:55,084 views  7664 5164 The user went to the page: 1
+INFO 2021-11-06 23:37:56,953 basehttp  7664 5164 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 23:38:20,032 autoreload  7664 15288 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 23:38:28,619 autoreload  12444 12968 Watching for file changes with StatReloader
+INFO 2021-11-06 23:38:29,981 views  12444 4500 The user went to the page: 1
+INFO 2021-11-06 23:38:32,146 basehttp  12444 4500 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-06 23:39:02,947 autoreload  12444 12968 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\custom_user\middleware.py changed, reloading.
+INFO 2021-11-06 23:39:13,407 autoreload  2700 14184 Watching for file changes with StatReloader
+INFO 2021-11-07 00:03:35,990 autoreload  2700 14184 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-07 00:03:44,181 autoreload  12192 6388 Watching for file changes with StatReloader
+INFO 2021-11-07 00:04:37,268 autoreload  12192 6388 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-07 00:04:45,178 autoreload  5552 9540 Watching for file changes with StatReloader
+INFO 2021-11-07 00:04:52,795 autoreload  5552 9540 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-07 00:04:58,800 autoreload  4172 15076 Watching for file changes with StatReloader
+INFO 2021-11-07 00:08:01,171 views  4172 5264 The user went to the page: 1
+ERROR 2021-11-07 00:08:04,556 log  4172 5264 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 105, in get_context_data
+    user_object = CustomUser.objects.get(user_of_comment)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\query.py", line 424, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\sql\query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\sql\query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\sql\query.py", line 1283, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+ERROR 2021-11-07 00:08:05,184 basehttp  4172 5264 "GET /mysite/posts/1/ HTTP/1.1" 500 134880
+INFO 2021-11-07 00:08:15,642 views  4172 5264 The user went to the page: 1
+INFO 2021-11-07 00:08:16,658 autoreload  4172 15076 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-07 00:08:24,147 autoreload  15664 15724 Watching for file changes with StatReloader
+INFO 2021-11-07 00:08:25,456 views  15664 1548 The user went to the page: 1
+INFO 2021-11-07 00:08:27,999 basehttp  15664 1548 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-07 00:08:37,650 autoreload  15664 15724 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-07 00:08:45,382 autoreload  9764 1456 Watching for file changes with StatReloader
+INFO 2021-11-07 00:09:54,166 views  9764 16056 The user went to the page: 1
+INFO 2021-11-07 00:09:57,432 basehttp  9764 16056 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-07 00:10:05,202 views  9764 16056 The user went to the page: 1
+INFO 2021-11-07 00:10:06,260 basehttp  9764 16056 "GET /mysite/posts/1/ HTTP/1.1" 200 11085
+INFO 2021-11-07 00:11:00,753 autoreload  9764 1456 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-07 00:11:09,244 autoreload  4220 1308 Watching for file changes with StatReloader
+INFO 2021-11-07 00:11:11,640 views  4220 10700 The user went to the page: 1
+ERROR 2021-11-07 00:11:16,415 log  4220 10700 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 105, in get_context_data
+    user_object = CustomUser.objects.get(user_of_comment)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\query.py", line 424, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\sql\query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\sql\query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\sql\query.py", line 1283, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+ERROR 2021-11-07 00:11:17,238 basehttp  4220 10700 "GET /mysite/posts/1/ HTTP/1.1" 500 134868
+INFO 2021-11-07 00:11:37,742 autoreload  4220 1308 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-07 00:11:48,073 autoreload  7204 6748 Watching for file changes with StatReloader
+INFO 2021-11-07 00:12:03,944 autoreload  7204 6748 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-07 00:12:17,348 autoreload  11692 1132 Watching for file changes with StatReloader
+INFO 2021-11-07 00:12:34,587 views  11692 14792 The user went to the page: 1
+ERROR 2021-11-07 00:12:36,924 log  11692 14792 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 105, in get_context_data
+    user_object = CustomUser.objects.get(user_of_comment)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\query.py", line 424, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\sql\query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\sql\query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\db\models\sql\query.py", line 1283, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+ERROR 2021-11-07 00:12:37,547 basehttp  11692 14792 "GET /mysite/posts/1/ HTTP/1.1" 500 134930
+INFO 2021-11-07 00:12:51,713 autoreload  11692 1132 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-07 00:12:59,460 autoreload  14152 14512 Watching for file changes with StatReloader
+INFO 2021-11-07 00:13:02,035 views  14152 9652 The user went to the page: 1
+ERROR 2021-11-07 00:13:04,416 log  14152 9652 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 104, in get_context_data
+    user_of_comment = comment[0]['user_id']
+KeyError: 0
+ERROR 2021-11-07 00:13:04,735 basehttp  14152 9652 "GET /mysite/posts/1/ HTTP/1.1" 500 98044
+INFO 2021-11-07 00:13:48,122 views  14152 9652 The user went to the page: 1
+ERROR 2021-11-07 00:13:49,274 log  14152 9652 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 104, in get_context_data
+    user_of_comment = comment[0]['user_id']
+KeyError: 0
+INFO 2021-11-07 00:13:49,604 autoreload  14152 14512 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+ERROR 2021-11-07 00:13:49,635 basehttp  14152 9652 "GET /mysite/posts/1/ HTTP/1.1" 500 98047
+INFO 2021-11-07 00:13:57,518 autoreload  10300 9528 Watching for file changes with StatReloader
+INFO 2021-11-07 00:13:58,986 views  10300 4132 The user went to the page: 1
+ERROR 2021-11-07 00:14:00,934 log  10300 4132 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 104, in get_context_data
+    user_of_comment = comment[0]['user_id']
+KeyError: 0
+ERROR 2021-11-07 00:14:01,232 basehttp  10300 4132 "GET /mysite/posts/1/ HTTP/1.1" 500 98047
+INFO 2021-11-07 00:14:29,570 views  10300 4132 The user went to the page: 1
+ERROR 2021-11-07 00:14:30,372 log  10300 4132 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 104, in get_context_data
+    user_of_comment = comment[0]['user_id']
+KeyError: 0
+ERROR 2021-11-07 00:14:30,754 basehttp  10300 4132 "GET /mysite/posts/1/ HTTP/1.1" 500 98047
+INFO 2021-11-07 00:14:31,023 autoreload  10300 9528 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-07 00:14:38,894 autoreload  4288 16188 Watching for file changes with StatReloader
+INFO 2021-11-07 00:14:40,369 views  4288 14736 The user went to the page: 1
+ERROR 2021-11-07 00:14:42,510 log  4288 14736 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 104, in get_context_data
+    user_of_comment = comment[0]['user_id']
+KeyError: 0
+ERROR 2021-11-07 00:14:42,855 basehttp  4288 14736 "GET /mysite/posts/1/ HTTP/1.1" 500 98047
+INFO 2021-11-07 00:15:03,653 autoreload  4288 16188 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-07 00:15:12,065 autoreload  1468 6252 Watching for file changes with StatReloader
+INFO 2021-11-07 00:15:23,801 views  1468 9592 The user went to the page: 1
+ERROR 2021-11-07 00:15:25,949 log  1468 9592 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 104, in get_context_data
+    user_of_comment = comment[0]['user_id']
+KeyError: 0
+ERROR 2021-11-07 00:15:26,356 basehttp  1468 9592 "GET /mysite/posts/1/ HTTP/1.1" 500 98033
+INFO 2021-11-07 00:15:48,763 autoreload  1468 6252 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-07 00:16:00,554 autoreload  15588 9988 Watching for file changes with StatReloader
+INFO 2021-11-07 00:16:03,316 views  15588 15472 The user went to the page: 1
+ERROR 2021-11-07 00:16:05,939 log  15588 15472 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\views\generic\base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py", line 106, in get_context_data
+    comment[0]['online'] = user_object.online()
+KeyError: 0
+ERROR 2021-11-07 00:16:06,357 basehttp  15588 15472 "GET /mysite/posts/1/ HTTP/1.1" 500 98440
+INFO 2021-11-07 00:16:47,169 autoreload  15588 9988 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-07 00:16:52,145 autoreload  3116 13024 Watching for file changes with StatReloader
+INFO 2021-11-07 00:16:52,834 views  3116 7780 The user went to the page: 1
+INFO 2021-11-07 00:16:54,011 basehttp  3116 7780 "GET /mysite/posts/1/ HTTP/1.1" 200 11084
+INFO 2021-11-07 00:17:40,525 autoreload  3116 13024 C:\Users\Chokeup\PycharmProjects\Forums\Forum\board\mysite\views.py changed, reloading.
+INFO 2021-11-07 00:17:45,179 autoreload  15460 12352 Watching for file changes with StatReloader
+INFO 2021-11-07 00:18:40,896 views  15460 12348 The user went to the page: 1
+ERROR 2021-11-07 00:18:42,105 log  15460 12348 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 979, in do_if
+    nodelist = parser.parse(('endif',))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 24: 'endfor', expected 'endif'. Did you forget to register or load this tag?
+ERROR 2021-11-07 00:18:42,247 basehttp  15460 12348 "GET /mysite/posts/1/ HTTP/1.1" 500 179079
+INFO 2021-11-07 00:18:54,446 views  15460 12348 The user went to the page: 1
+ERROR 2021-11-07 00:18:54,784 log  15460 12348 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'endfor', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+ERROR 2021-11-07 00:18:54,888 basehttp  15460 12348 "GET /mysite/posts/1/ HTTP/1.1" 500 178461
+INFO 2021-11-07 00:18:58,997 views  15460 12348 The user went to the page: 1
+ERROR 2021-11-07 00:18:59,283 log  15460 12348 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'endfor', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+ERROR 2021-11-07 00:18:59,396 basehttp  15460 12348 "GET /mysite/posts/1/ HTTP/1.1" 500 178461
+INFO 2021-11-07 00:19:15,535 views  15460 12348 The user went to the page: 1
+INFO 2021-11-07 00:19:15,926 basehttp  15460 12348 "GET /mysite/posts/1/ HTTP/1.1" 200 11097
+INFO 2021-11-07 00:19:39,181 views  15460 12348 The user went to the page: 1
+ERROR 2021-11-07 00:19:39,527 log  15460 12348 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'elise'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'elise', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+ERROR 2021-11-07 00:19:39,636 basehttp  15460 12348 "GET /mysite/posts/1/ HTTP/1.1" 500 176791
+INFO 2021-11-07 00:19:51,574 views  15460 12348 The user went to the page: 1
+ERROR 2021-11-07 00:19:51,905 log  15460 12348 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 979, in do_if
+    nodelist = parser.parse(('endif',))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 24: 'endfor', expected 'endif'. Did you forget to register or load this tag?
+ERROR 2021-11-07 00:19:52,016 basehttp  15460 12348 "GET /mysite/posts/1/ HTTP/1.1" 500 178924
+INFO 2021-11-07 00:20:10,924 views  15460 12348 The user went to the page: 1
+ERROR 2021-11-07 00:20:11,236 log  15460 12348 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 979, in do_if
+    nodelist = parser.parse(('endif',))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 24: 'endfor', expected 'endif'. Did you forget to register or load this tag?
+ERROR 2021-11-07 00:20:11,346 basehttp  15460 12348 "GET /mysite/posts/1/ HTTP/1.1" 500 179152
+INFO 2021-11-07 00:20:43,827 views  15460 12348 The user went to the page: 1
+ERROR 2021-11-07 00:20:44,142 log  15460 12348 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 979, in do_if
+    nodelist = parser.parse(('endif',))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 24: 'endfor', expected 'endif'. Did you forget to register or load this tag?
+ERROR 2021-11-07 00:20:44,255 basehttp  15460 12348 "GET /mysite/posts/1/ HTTP/1.1" 500 179036
+INFO 2021-11-07 00:20:50,321 views  15460 12348 The user went to the page: 1
+ERROR 2021-11-07 00:20:50,749 log  15460 12348 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 979, in do_if
+    nodelist = parser.parse(('endif',))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 24: 'endfor', expected 'endif'. Did you forget to register or load this tag?
+ERROR 2021-11-07 00:20:50,865 basehttp  15460 12348 "GET /mysite/posts/1/ HTTP/1.1" 500 179132
+INFO 2021-11-07 00:20:55,374 views  15460 12348 The user went to the page: 1
+ERROR 2021-11-07 00:20:55,696 log  15460 12348 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 23: 'endfor', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+ERROR 2021-11-07 00:20:55,820 basehttp  15460 12348 "GET /mysite/posts/1/ HTTP/1.1" 500 178571
+INFO 2021-11-07 00:21:08,335 views  15460 12348 The user went to the page: 1
+ERROR 2021-11-07 00:21:08,636 log  15460 12348 Internal Server Error: /mysite/posts/1/
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\defaulttags.py", line 979, in do_if
+    nodelist = parser.parse(('endif',))
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Chokeup\PycharmProjects\Forums\venv\lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 25: 'endfor', expected 'endif'. Did you forget to register or load this tag?
+ERROR 2021-11-07 00:21:08,742 basehttp  15460 12348 "GET /mysite/posts/1/ HTTP/1.1" 500 179258
+INFO 2021-11-07 00:21:19,917 views  15460 12348 The user went to the page: 1
+INFO 2021-11-07 00:21:20,309 basehttp  15460 12348 "GET /mysite/posts/1/ HTTP/1.1" 200 11148
+INFO 2021-11-07 00:21:24,085 views  15460 12348 The user went to the page: 1
+INFO 2021-11-07 00:21:24,463 basehttp  15460 12348 "GET /mysite/posts/1/ HTTP/1.1" 200 11148

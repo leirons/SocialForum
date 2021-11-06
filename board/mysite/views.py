@@ -38,7 +38,7 @@ class MultipleModelView(TemplateView):
     template_name = 'mysite/base_mysite.html'
 
     def get_context_data(self) -> Dict[str,Any]:
-        logger.info(f"The user {self.request.user.id} entered in the page ")
+        logger.info(f"The user {self.request.user} entered on the page ")
 
         filter_ = Filter(self.request.GET, queryset=Theme.objects.all())
         context = super(MultipleModelView, self).get_context_data()
@@ -56,7 +56,6 @@ class Themes(TemplateView):
 
     def get_context_data(self, **kwargs) -> Dict[str,Any]:
         logger.info(f"The user {self.request.user.id} went to the page")
-
         context = super(Themes, self).get_context_data()
         last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
         context['last_three_comments'] = Comments.objects.filter(post_id=last_post_id)[:3]
@@ -86,9 +85,9 @@ class Posts(TemplateView):
 
         if self.request.user:
             P = Post.objects.get(pk=kwargs['pk'])
-
             P.popularity = P.popularity + 1
             P.save()
+
         context = super(Posts, self).get_context_data(**kwargs)
         user_id = self.request.user.id
         args = 'user_id', 'user__username', 'post__id', 'body', 'created_on'
@@ -99,6 +98,14 @@ class Posts(TemplateView):
         else:
             comments = Comments.objects.values(*args).filter(post_id=kwargs['pk'])
 
+        users_ = []
+        for comment in comments:
+            print(comment)
+            user_of_comment = comment['user_id']
+            user_object = CustomUser.objects.get(id=user_of_comment)
+            comment['online'] = user_object.online()
+
+        print(comments)
         context['user_id'] = self.request.user.id
         paginator = Paginator(comments, 5)
         page_number = self.request.GET.get('page', 1)
