@@ -250,4 +250,5 @@ USER_ONLINE_TIMEOUT = 300
 # their last seen is removed from the cache
 USER_LASTSEEN_TIMEOUT = 60 * 60 * 24 * 7
 
+
 SEND_LOGS_TO = ('grecigor11@gmail.com',)
