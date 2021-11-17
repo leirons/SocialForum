@@ -6,7 +6,7 @@ class IsOwnerOrStaffOrReadOnly(BasePermission):
     См.название класса
     """
 
-    def has_object_permission(self, request, view, obj):
+    def has_object_permission(self, request, view, obj) -> bool:
         return bool(
             request.method in SAFE_METHODS or
             request.user and
@@ -24,11 +24,8 @@ class IsAuthenticateAndIsOwner(BasePermission):
     PUT,PATCH только для владельцев
     """
 
-    def has_permission(self, request, view):
+    def has_permission(self, request,view) -> bool:
         return True if request.data.get('user', None) == request.user.id else False
 
-    def has_object_permission(self, request, view, obj):
-        return bool(
-            request.user.is_authenticated and
-            obj.user == request.user
-        )
+    def has_object_permission(self, request, view, obj) -> bool:
+        return True if request.user.is_authenticated and obj.user == request.user else False
