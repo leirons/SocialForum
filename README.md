@@ -22,9 +22,12 @@ python -m spacy download en
 python manage.py load_country
 pip install -r requirements.txt # Перед командой активировать виртуальное окружение
 
+If you are using linux then install psycopg2-binary, instead psycopg.
+
 MAILCHIMP_API_KEY = "YOUR KEY"
 MAILCHIMP_DATA_CENTER = "YOUR DATA"
 MAILCHIMP_EMAIL_LIST_ID = "YOUR LIST ID"
+
 
 python manage.py makemigrations
 python manage.py migrate
