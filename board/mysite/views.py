@@ -2,14 +2,13 @@ from django.views.generic import TemplateView
 from django.views.generic.edit import UpdateView
 from django.views.generic.edit import CreateView
 
-
-
 from .filters import Filter
 
 from .models import *
 from custom_user.models import CustomUser
 
 from .services import subscribelogic
+from .exceptions.ThereNotAnyPosts import ThereNotAnyPosts
 
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.core.paginator import Paginator
@@ -18,26 +17,23 @@ from django.contrib import messages
 from django.conf import settings
 from django.urls import reverse_lazy
 
-
-from typing import Dict,Any
+from typing import Dict, Any
 
 import logging
 
 logger = logging.getLogger('django')
-
-
-
 
 # Mailchimp Settings
 api_key = settings.MAILCHIMP_API_KEY
 server = settings.MAILCHIMP_DATA_CENTER
 list_id = settings.MAILCHIMP_EMAIL_LIST_ID
 
+
 class MultipleModelView(TemplateView):
     """Shows all Subjects and Themes of the subject"""
     template_name = 'mysite/base_mysite.html'
 
-    def get_context_data(self) -> Dict[str,Any]:
+    def get_context_data(self) -> Dict[str, Any]:
         logger.info(f"The user {self.request.user} entered on the page ")
 
         filter_ = Filter(self.request.GET, queryset=Theme.objects.all())
@@ -46,34 +42,36 @@ class MultipleModelView(TemplateView):
         context['modelone'] = Subject.objects.all()
         context['modelsix'] = Post.objects.all().order_by('created_at')[:10]
         context['filter'] = filter_
-        n = Post.objects.all().order_by('created_at')[:10]
         return context
 
 
 class Themes(TemplateView):
+    """Shows all themes in Subject"""
     template_name = 'mysite/themes.html'
 
-
-    def get_context_data(self, **kwargs) -> Dict[str,Any]:
-        logger.info(f"The user {self.request.user.id} went to the page")
+    def get_context_data(self, **kwargs) -> Dict[str, Any]:
         context = super(Themes, self).get_context_data()
-        last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
-        context['last_three_comments'] = Comments.objects.filter(post_id=last_post_id)[:3]
-        context['last_five_comments'] = Comments.objects.all()[:5]
-        post_list = Post.objects.all()
-        paginator = Paginator(post_list, 10)
-        page_number = self.request.GET.get('page')
-        page_obj = paginator.get_page(page_number)
-        context['page_obj'] = page_obj
-        context['slug'] = self.kwargs['slug']
-        return context
+        try:
+            logger.info(f"The user {self.request.user.id} went to the page")
+            last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+            context['last_three_comments'] = Comments.objects.filter(post_id=last_post_id)[:3]
+            context['last_five_comments'] = Comments.objects.all()[:5]
+            post_list = Post.objects.all()
+            paginator = Paginator(post_list, 10)
+            page_number = self.request.GET.get('page')
+            page_obj = paginator.get_page(page_number)
+            context['page_obj'] = page_obj
+            context['slug'] = self.kwargs['slug']
+        except Exception as ThereNotAnyPosts:
+            logger.info(ThereNotAnyPosts)
+        finally:
+            return context
 
 
 class Posts(TemplateView):
     template_name = 'mysite/posts.html'
 
-
-    def get_context_data(self, **kwargs) -> Dict[str,Any]:
+    def get_context_data(self, **kwargs) -> Dict[str, Any]:
 
         """
         Вывод комментариев в посте.
@@ -98,14 +96,11 @@ class Posts(TemplateView):
         else:
             comments = Comments.objects.values(*args).filter(post_id=kwargs['pk'])
 
-        users_ = []
         for comment in comments:
-            print(comment)
             user_of_comment = comment['user_id']
             user_object = CustomUser.objects.get(id=user_of_comment)
             comment['online'] = user_object.online()
 
-        print(comments)
         context['user_id'] = self.request.user.id
         paginator = Paginator(comments, 5)
         page_number = self.request.GET.get('page', 1)
@@ -114,13 +109,12 @@ class Posts(TemplateView):
         return context
 
 
-
 class EditComments(UpdateView):
     model = Comments
     template_name = 'mysite/comments.html'
     fields = ['body']
 
-    def get_context_data(self, **kwargs) -> Dict[str,Any]:
+    def get_context_data(self, **kwargs) -> Dict[str, Any]:
         """Проверяем чей коммент, если юзера то разрешаем редактировать"""
         logger.info(f"На страницу зашел{self.request.user.id}")
         context = super().get_context_data(**kwargs)
@@ -135,14 +129,12 @@ class EditComments(UpdateView):
         return context
 
 
-
-
 class EditPost(LoginRequiredMixin, UpdateView):
     model = Post
     template_name = 'mysite/post_edit.html'
     fields = ['title', 'text']
 
-    def get_context_data(self, **kwargs) -> Dict[str,Any]:
+    def get_context_data(self, **kwargs) -> Dict[str, Any]:
         """Проверяем чей пост, если юзера то разрешаем редактировать"""
         context = super().get_context_data(**kwargs)
         login_user_id = self.request.user.pk
@@ -183,12 +175,10 @@ class CreateComment(LoginRequiredMixin, CreateView):
         return super().form_valid(form)
 
 
-class Profile(LoginRequiredMixin,TemplateView):
+class Profile(LoginRequiredMixin, TemplateView):
 
     def get_context_data(self, **kwargs):
-
-        context =  super(Profile, self).get_context_data()
-
+        context = super(Profile, self).get_context_data()
 
 
 def subscribe(request):
