@@ -37,6 +37,7 @@ class CustomUser(AbstractUser):
     subscribers = models.ManyToManyField('self', related_name='subscriptions', symmetrical=False, blank=True)
     posts = models.IntegerField(default=0)
     commentaries = models.IntegerField(default=0)
+    about_yourself = models.TextField()
 
     def last_seen(self):
         print(cache.get(self.username))
@@ -65,9 +66,11 @@ class CustomUser(AbstractUser):
         super(CustomUser, self).clean()
 
     def get_posts(self):
+        """Получить посты юзера"""
         return self.posts
 
     def get_comments(self):
+        """Получить комментарии юзера"""
         return self.comments
 
     def __str__(self):

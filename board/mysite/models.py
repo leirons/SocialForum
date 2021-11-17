@@ -2,6 +2,7 @@ from django.db import models
 from django.urls import reverse
 
 from board import settings
+
 from custom_user.models import CustomUser
 
 from .utils.bad_words import change_all_bad_words
@@ -31,12 +32,10 @@ class Theme(models.Model):
                                 verbose_name='Тема обсуждения')
     slug = models.SlugField(null=True, verbose_name='ссылка на страницу')
 
-
     class Meta:
         ordering = ['title']
         verbose_name_plural = 'Темы'
         verbose_name = 'Тема'
-
 
     def __str__(self):
         return self.title
@@ -53,7 +52,7 @@ class Post(models.Model):
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Дата создания')
     where_we_are = models.ForeignKey(Theme, on_delete=models.CASCADE, related_name='get_news', null=True, blank=True)
     popularity = models.IntegerField(default=0)
-    likes = models.IntegerField(default = 0)
+    likes = models.IntegerField(default=0)
 
     class Meta:
         ordering = ['created_at']
@@ -83,6 +82,3 @@ class Comments(models.Model):
     def clean(self):
         self.body = change_all_bad_words(self.body)
         super(Comments, self).clean()
-
-
-
