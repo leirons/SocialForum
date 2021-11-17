@@ -1618,3 +1618,776 @@ INFO 2021-11-07 00:21:19,917 views  15460 12348 The user went to the page: 1
 INFO 2021-11-07 00:21:20,309 basehttp  15460 12348 "GET /mysite/posts/1/ HTTP/1.1" 200 11148
 INFO 2021-11-07 00:21:24,085 views  15460 12348 The user went to the page: 1
 INFO 2021-11-07 00:21:24,463 basehttp  15460 12348 "GET /mysite/posts/1/ HTTP/1.1" 200 11148
+INFO 2021-11-17 16:59:18,023 autoreload  38197 139732963555136 Watching for file changes with StatReloader
+WARNING 2021-11-17 16:59:44,903 log  38197 139732506355456 Not Found: /
+WARNING 2021-11-17 16:59:44,904 basehttp  38197 139732506355456 "GET / HTTP/1.1" 404 14779
+INFO 2021-11-17 16:59:44,958 basehttp  38197 139732497962752 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 10452
+INFO 2021-11-17 16:59:44,966 basehttp  38197 139732488259328 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2021-11-17 16:59:44,969 basehttp  38197 139732506355456 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 11461
+INFO 2021-11-17 16:59:44,994 basehttp  38197 139732506355456 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 2988
+WARNING 2021-11-17 16:59:45,095 log  38197 139732506355456 Not Found: /favicon.ico
+WARNING 2021-11-17 16:59:45,095 basehttp  38197 139732506355456 "GET /favicon.ico HTTP/1.1" 404 14841
+INFO 2021-11-17 16:59:51,954 basehttp  38197 139732506355456 "GET /__debug__/render_panel/?store_id=716c765d899c449aa5ecf7923119a442&panel_id=SignalsPanel HTTP/1.1" 200 2704
+INFO 2021-11-17 17:03:44,736 autoreload  38197 139732963555136 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 17:03:46,461 autoreload  38694 140720187365184 Watching for file changes with StatReloader
+INFO 2021-11-17 17:35:55,793 autoreload  38694 140720187365184 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 17:35:58,236 autoreload  40403 139770985776960 Watching for file changes with StatReloader
+INFO 2021-11-17 17:36:34,973 autoreload  40403 139770985776960 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/custom_user/apps.py changed, reloading.
+INFO 2021-11-17 17:36:36,889 autoreload  40476 139896314455872 Watching for file changes with StatReloader
+INFO 2021-11-17 17:45:20,849 autoreload  40476 139896314455872 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/custom_user/api/permissions.py changed, reloading.
+INFO 2021-11-17 17:45:23,073 autoreload  40836 140380956968768 Watching for file changes with StatReloader
+INFO 2021-11-17 17:47:56,679 autoreload  40836 140380956968768 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/custom_user/api/permissions.py changed, reloading.
+INFO 2021-11-17 17:47:58,609 autoreload  40929 140373291755328 Watching for file changes with StatReloader
+WARNING 2021-11-17 17:49:01,461 log  40929 140372834547456 Not Found: /
+WARNING 2021-11-17 17:49:01,462 basehttp  40929 140372834547456 "GET / HTTP/1.1" 404 14779
+INFO 2021-11-17 17:49:01,550 basehttp  40929 140372834547456 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2021-11-17 17:49:01,552 basehttp  40929 140372743284480 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2021-11-17 17:49:01,557 basehttp  40929 140372751677184 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2021-11-17 17:49:01,591 basehttp  40929 140372751677184 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2021-11-17 17:49:06,249 log  40929 140372751677184 Not Found: /site
+WARNING 2021-11-17 17:49:06,249 basehttp  40929 140372751677184 "GET /site HTTP/1.1" 404 14813
+INFO 2021-11-17 17:49:08,101 basehttp  40929 140372751677184 "GET /mysite HTTP/1.1" 301 0
+INFO 2021-11-17 17:49:08,110 views  40929 140372751677184 The user AnonymousUser entered on the page 
+INFO 2021-11-17 17:49:08,365 basehttp  40929 140372751677184 "GET /mysite/ HTTP/1.1" 200 13104
+INFO 2021-11-17 17:49:08,402 basehttp  40929 140372751677184 "GET /static/css/styles.css HTTP/1.1" 200 2165
+INFO 2021-11-17 17:49:11,617 views  40929 140372751677184 The user AnonymousUser entered on the page 
+INFO 2021-11-17 17:49:11,692 basehttp  40929 140372751677184 "GET /mysite/? HTTP/1.1" 200 13102
+INFO 2021-11-17 17:49:12,988 views  40929 140372751677184 The user AnonymousUser entered on the page 
+INFO 2021-11-17 17:49:13,125 basehttp  40929 140372751677184 "GET /mysite/? HTTP/1.1" 200 13104
+INFO 2021-11-17 17:49:22,478 basehttp  40929 140372751677184 "GET /signup/ HTTP/1.1" 200 13713
+INFO 2021-11-17 17:49:23,213 basehttp  40929 140372751677184 "GET /login/ HTTP/1.1" 200 12946
+INFO 2021-11-17 17:49:23,686 basehttp  40929 140372751677184 "GET /signup/ HTTP/1.1" 200 13713
+INFO 2021-11-17 17:49:24,703 basehttp  40929 140372751677184 "GET /signup/ HTTP/1.1" 200 13713
+INFO 2021-11-17 17:49:25,125 basehttp  40929 140372751677184 "GET /login/ HTTP/1.1" 200 12950
+INFO 2021-11-17 17:49:25,442 basehttp  40929 140372751677184 "GET /signup/ HTTP/1.1" 200 13713
+INFO 2021-11-17 17:49:27,572 views  40929 140372751677184 The user AnonymousUser entered on the page 
+INFO 2021-11-17 17:49:27,722 basehttp  40929 140372751677184 "GET /mysite/ HTTP/1.1" 200 13104
+INFO 2021-11-17 17:49:32,771 views  40929 140372751677184 The user None went to the page
+ERROR 2021-11-17 17:49:32,926 log  40929 140372751677184 Internal Server Error: /mysite/admin
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 59, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 17:49:32,955 basehttp  40929 140372751677184 "GET /mysite/admin HTTP/1.1" 500 95558
+INFO 2021-11-17 17:49:36,062 basehttp  40929 140372751677184 "GET /admin HTTP/1.1" 301 0
+INFO 2021-11-17 17:49:36,193 basehttp  40929 140372751677184 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-11-17 17:49:36,294 basehttp  40929 140372751677184 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 13136
+INFO 2021-11-17 17:49:36,332 basehttp  40929 140372751677184 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2021-11-17 17:49:36,339 basehttp  40929 140372743284480 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2021-11-17 17:49:36,340 basehttp  40929 140372834547456 "GET /static/admin/css/login.css HTTP/1.1" 200 939
+INFO 2021-11-17 17:49:36,341 basehttp  40929 140372734891776 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2021-11-17 17:49:36,346 basehttp  40929 140372834547456 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-11-17 17:49:36,383 basehttp  40929 140372751677184 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-11-17 17:49:36,539 basehttp  40929 140372834547456 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-11-17 17:49:36,540 basehttp  40929 140372751677184 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-11-17 17:49:40,374 basehttp  40929 140372751677184 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-11-17 17:49:40,624 basehttp  40929 140372751677184 "GET /admin/ HTTP/1.1" 200 25107
+INFO 2021-11-17 17:49:40,662 basehttp  40929 140372751677184 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2021-11-17 17:49:40,675 basehttp  40929 140372751677184 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-11-17 17:49:40,676 basehttp  40929 140372834547456 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-11-17 17:49:40,707 basehttp  40929 140372834547456 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-11-17 17:52:33,882 basehttp  40929 140372751677184 "GET /admin/mysite/theme/ HTTP/1.1" 200 23942
+INFO 2021-11-17 17:52:33,929 basehttp  40929 140372743284480 "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+INFO 2021-11-17 17:52:33,931 basehttp  40929 140372751677184 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+INFO 2021-11-17 17:52:33,940 basehttp  40929 140372724401920 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2021-11-17 17:52:33,944 basehttp  40929 140372716009216 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2021-11-17 17:52:33,949 basehttp  40929 140372743284480 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2021-11-17 17:52:33,954 basehttp  40929 140372751677184 "GET /static/admin/js/actions.js HTTP/1.1" 200 7664
+INFO 2021-11-17 17:52:33,955 basehttp  40929 140372716009216 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2021-11-17 17:52:33,956 basehttp  40929 140372724401920 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2021-11-17 17:52:33,957 basehttp  40929 140372743284480 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2021-11-17 17:52:33,973 basehttp  40929 140372734891776 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2021-11-17 17:52:33,981 basehttp  40929 140372751677184 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2021-11-17 17:52:33,995 basehttp  40929 140372834547456 "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+INFO 2021-11-17 17:52:34,046 basehttp  40929 140372751677184 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2021-11-17 17:52:36,260 basehttp  40929 140372751677184 "GET /admin/mysite/theme/add/ HTTP/1.1" 200 27610
+INFO 2021-11-17 17:52:36,304 basehttp  40929 140372834547456 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2021-11-17 17:52:36,319 basehttp  40929 140372834547456 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+INFO 2021-11-17 17:52:36,342 basehttp  40929 140372751677184 "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+INFO 2021-11-17 17:52:44,549 basehttp  40929 140372751677184 "GET /admin/mysite/subject/add/?_to_field=id&_popup=1 HTTP/1.1" 200 13930
+INFO 2021-11-17 17:52:44,604 basehttp  40929 140372751677184 "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+INFO 2021-11-17 17:52:46,920 basehttp  40929 140372751677184 "POST /admin/mysite/subject/add/?_to_field=id&_popup=1 HTTP/1.1" 200 11236
+INFO 2021-11-17 17:52:46,941 basehttp  40929 140372751677184 "GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+INFO 2021-11-17 17:52:48,970 basehttp  40929 140372751677184 "POST /admin/mysite/theme/add/ HTTP/1.1" 302 0
+INFO 2021-11-17 17:52:49,249 basehttp  40929 140372751677184 "GET /admin/mysite/theme/ HTTP/1.1" 200 26431
+INFO 2021-11-17 17:52:49,351 basehttp  40929 140372751677184 "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+INFO 2021-11-17 17:52:49,378 basehttp  40929 140372751677184 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2021-11-17 17:52:49,380 basehttp  40929 140372834547456 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2021-11-17 17:53:00,829 views  40929 140372751677184 The user admin entered on the page 
+INFO 2021-11-17 17:53:00,982 basehttp  40929 140372751677184 "GET /mysite/ HTTP/1.1" 200 13371
+INFO 2021-11-17 17:53:02,551 views  40929 140372751677184 The user 1 went to the page
+ERROR 2021-11-17 17:53:02,631 log  40929 140372751677184 Internal Server Error: /mysite/123
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 59, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 17:53:02,664 basehttp  40929 140372751677184 "GET /mysite/123 HTTP/1.1" 500 95892
+INFO 2021-11-17 17:53:06,281 views  40929 140372751677184 The user 1 went to the page
+ERROR 2021-11-17 17:53:06,388 log  40929 140372751677184 Internal Server Error: /mysite/123
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 59, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 17:53:06,434 basehttp  40929 140372751677184 "GET /mysite/123 HTTP/1.1" 500 95893
+INFO 2021-11-17 17:53:25,507 basehttp  40929 140372751677184 "GET /admin/ HTTP/1.1" 200 25724
+INFO 2021-11-17 17:53:30,808 basehttp  40929 140372751677184 "GET /admin/mysite/post/ HTTP/1.1" 200 23494
+INFO 2021-11-17 17:53:30,921 basehttp  40929 140372751677184 "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+INFO 2021-11-17 17:53:33,030 basehttp  40929 140372751677184 "GET /admin/mysite/post/add/ HTTP/1.1" 200 28229
+INFO 2021-11-17 17:53:33,095 basehttp  40929 140372751677184 "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+INFO 2021-11-17 17:53:40,624 basehttp  40929 140372751677184 "POST /admin/mysite/post/add/ HTTP/1.1" 302 0
+INFO 2021-11-17 17:53:40,930 basehttp  40929 140372751677184 "GET /admin/mysite/post/ HTTP/1.1" 200 24945
+INFO 2021-11-17 17:53:41,005 basehttp  40929 140372751677184 "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+INFO 2021-11-17 17:53:43,829 views  40929 140372751677184 The user admin entered on the page 
+INFO 2021-11-17 17:53:43,928 basehttp  40929 140372751677184 "GET /mysite/ HTTP/1.1" 200 13403
+INFO 2021-11-17 17:53:46,861 views  40929 140372751677184 The user admin entered on the page 
+INFO 2021-11-17 17:53:46,998 basehttp  40929 140372751677184 "GET /mysite/ HTTP/1.1" 200 13405
+INFO 2021-11-17 17:53:48,040 views  40929 140372751677184 The user 1 went to the page
+INFO 2021-11-17 17:53:48,202 basehttp  40929 140372751677184 "GET /mysite/123 HTTP/1.1" 200 11323
+INFO 2021-11-17 17:53:57,881 basehttp  40929 140372751677184 "GET /admin/mysite/theme/ HTTP/1.1" 200 26227
+INFO 2021-11-17 17:53:57,946 basehttp  40929 140372751677184 "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+INFO 2021-11-17 17:53:59,631 basehttp  40929 140372751677184 "GET /admin/mysite/theme/add/ HTTP/1.1" 200 27644
+INFO 2021-11-17 17:53:59,691 basehttp  40929 140372751677184 "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+INFO 2021-11-17 17:54:10,152 basehttp  40929 140372751677184 "POST /admin/mysite/theme/add/ HTTP/1.1" 302 0
+INFO 2021-11-17 17:54:10,346 basehttp  40929 140372751677184 "GET /admin/mysite/theme/ HTTP/1.1" 200 26901
+INFO 2021-11-17 17:54:10,477 basehttp  40929 140372751677184 "GET /admin/jsi18n/ HTTP/1.1" 200 15618
+INFO 2021-11-17 17:54:30,185 views  40929 140372751677184 The user 1 went to the page
+INFO 2021-11-17 17:54:30,372 basehttp  40929 140372751677184 "GET /mysite/123 HTTP/1.1" 200 11323
+INFO 2021-11-17 17:54:30,397 basehttp  40929 140372834547456 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2021-11-17 17:54:30,399 basehttp  40929 140372734891776 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2021-11-17 17:54:30,400 basehttp  40929 140372751677184 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2021-11-17 17:54:30,411 basehttp  40929 140372751677184 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2021-11-17 17:54:31,893 views  40929 140372751677184 The user admin entered on the page 
+INFO 2021-11-17 17:54:32,028 basehttp  40929 140372751677184 "GET /mysite/ HTTP/1.1" 200 13650
+INFO 2021-11-17 17:54:32,948 views  40929 140372751677184 The user 1 went to the page
+ERROR 2021-11-17 17:54:33,057 log  40929 140372751677184 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 59, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 17:54:33,088 basehttp  40929 140372751677184 "GET /mysite/proverka HTTP/1.1" 500 95983
+INFO 2021-11-17 17:56:15,571 autoreload  40929 140373291755328 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 17:56:17,481 autoreload  42328 139819615778624 Watching for file changes with StatReloader
+INFO 2021-11-17 17:56:18,728 views  42328 139819159586560 The user 1 went to the page
+ERROR 2021-11-17 17:56:18,965 log  42328 139819159586560 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 59, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 17:56:19,045 basehttp  42328 139819159586560 "GET /mysite/proverka HTTP/1.1" 500 96119
+INFO 2021-11-17 17:56:39,180 autoreload  42328 139819615778624 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 17:56:41,104 autoreload  42396 139983200999232 Watching for file changes with StatReloader
+INFO 2021-11-17 17:56:41,570 views  42396 139982744860416 The user 1 went to the page
+ERROR 2021-11-17 17:56:41,759 log  42396 139982744860416 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 59, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 17:56:41,817 basehttp  42396 139982744860416 "GET /mysite/proverka HTTP/1.1" 500 96158
+INFO 2021-11-17 17:56:42,225 views  42396 139982744860416 The user 1 went to the page
+ERROR 2021-11-17 17:56:42,307 log  42396 139982744860416 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 59, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 17:56:42,396 basehttp  42396 139982744860416 "GET /mysite/proverka HTTP/1.1" 500 96158
+INFO 2021-11-17 17:57:01,525 autoreload  42396 139983200999232 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 17:57:02,949 autoreload  42438 140402466518848 Watching for file changes with StatReloader
+INFO 2021-11-17 17:57:35,986 autoreload  42438 140402466518848 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 17:57:38,102 autoreload  42451 140142176954176 Watching for file changes with StatReloader
+INFO 2021-11-17 17:58:51,252 autoreload  42451 140142176954176 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 17:58:52,994 autoreload  42484 140302820554560 Watching for file changes with StatReloader
+INFO 2021-11-17 17:58:53,986 views  42484 140302431540992 The user 1 went to the page
+INFO 2021-11-17 17:58:54,131 views  42484 140302431540992 Нет постов
+ERROR 2021-11-17 17:58:54,191 log  42484 140302431540992 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/template/context.py", line 268, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than HttpResponse.
+ERROR 2021-11-17 17:58:54,252 basehttp  42484 140302431540992 "GET /mysite/proverka HTTP/1.1" 500 94239
+INFO 2021-11-17 17:59:45,221 autoreload  42484 140302820554560 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 17:59:46,911 autoreload  42561 140503332538176 Watching for file changes with StatReloader
+INFO 2021-11-17 17:59:48,714 views  42561 140502875240192 The user 1 went to the page
+ERROR 2021-11-17 17:59:48,963 log  42561 140502875240192 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 58, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 17:59:49,020 basehttp  42561 140502875240192 "GET /mysite/proverka HTTP/1.1" 500 96119
+INFO 2021-11-17 17:59:51,171 views  42561 140502875240192 The user 1 went to the page
+ERROR 2021-11-17 17:59:51,227 log  42561 140502875240192 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 58, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 17:59:51,262 basehttp  42561 140502875240192 "GET /mysite/proverka HTTP/1.1" 500 96117
+INFO 2021-11-17 17:59:53,802 views  42561 140502875240192 The user 1 went to the page
+ERROR 2021-11-17 17:59:53,873 log  42561 140502875240192 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 58, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 17:59:53,913 basehttp  42561 140502875240192 "GET /mysite/proverka HTTP/1.1" 500 96118
+INFO 2021-11-17 17:59:54,646 views  42561 140502875240192 The user 1 went to the page
+ERROR 2021-11-17 17:59:54,706 log  42561 140502875240192 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 58, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 17:59:54,745 basehttp  42561 140502875240192 "GET /mysite/proverka HTTP/1.1" 500 96117
+INFO 2021-11-17 17:59:55,197 views  42561 140502875240192 The user 1 went to the page
+ERROR 2021-11-17 17:59:55,253 log  42561 140502875240192 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 58, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 17:59:55,285 basehttp  42561 140502875240192 "GET /mysite/proverka HTTP/1.1" 500 96117
+INFO 2021-11-17 17:59:55,753 views  42561 140502875240192 The user 1 went to the page
+ERROR 2021-11-17 17:59:55,815 log  42561 140502875240192 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 58, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 17:59:55,849 basehttp  42561 140502875240192 "GET /mysite/proverka HTTP/1.1" 500 96117
+INFO 2021-11-17 17:59:56,336 views  42561 140502875240192 The user 1 went to the page
+ERROR 2021-11-17 17:59:56,391 log  42561 140502875240192 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 58, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 17:59:56,429 basehttp  42561 140502875240192 "GET /mysite/proverka HTTP/1.1" 500 96117
+INFO 2021-11-17 17:59:56,764 views  42561 140502875240192 The user 1 went to the page
+ERROR 2021-11-17 17:59:56,834 log  42561 140502875240192 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 58, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 17:59:56,868 basehttp  42561 140502875240192 "GET /mysite/proverka HTTP/1.1" 500 96117
+INFO 2021-11-17 17:59:57,029 views  42561 140502875240192 The user 1 went to the page
+ERROR 2021-11-17 17:59:57,098 log  42561 140502875240192 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 58, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 17:59:57,137 basehttp  42561 140502875240192 "GET /mysite/proverka HTTP/1.1" 500 96118
+INFO 2021-11-17 18:00:01,758 views  42561 140502875240192 The user 1 went to the page
+ERROR 2021-11-17 18:00:01,815 log  42561 140502875240192 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 58, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 18:00:01,848 basehttp  42561 140502875240192 "GET /mysite/proverka HTTP/1.1" 500 96117
+INFO 2021-11-17 18:01:10,459 autoreload  42561 140503332538176 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 18:01:12,216 autoreload  42607 139721043019584 Watching for file changes with StatReloader
+INFO 2021-11-17 18:01:12,690 views  42607 139720587392768 The user 1 went to the page
+ERROR 2021-11-17 18:01:13,026 log  42607 139720587392768 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/template/context.py", line 268, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than type.
+ERROR 2021-11-17 18:01:13,088 basehttp  42607 139720587392768 "GET /mysite/proverka HTTP/1.1" 500 94147
+INFO 2021-11-17 18:01:13,207 basehttp  42607 139720579000064 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2021-11-17 18:01:13,208 basehttp  42607 139720587392768 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2021-11-17 18:01:13,211 basehttp  42607 139720587392768 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2021-11-17 18:01:13,252 basehttp  42607 139720587392768 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2021-11-17 18:01:43,289 views  42607 139720587392768 The user 1 went to the page
+ERROR 2021-11-17 18:01:43,360 log  42607 139720587392768 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/template/context.py", line 268, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than type.
+ERROR 2021-11-17 18:01:43,398 basehttp  42607 139720587392768 "GET /mysite/proverka HTTP/1.1" 500 94145
+INFO 2021-11-17 18:01:43,456 autoreload  42607 139721043019584 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 18:01:45,252 autoreload  42661 140120991868736 Watching for file changes with StatReloader
+ERROR 2021-11-17 18:01:46,251 log  42661 140120535660288 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/template/context.py", line 268, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than type.
+ERROR 2021-11-17 18:01:46,297 basehttp  42661 140120535660288 "GET /mysite/proverka HTTP/1.1" 500 94149
+INFO 2021-11-17 18:02:18,373 autoreload  42661 140120991868736 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 18:02:20,596 autoreload  42737 140476703168320 Watching for file changes with StatReloader
+INFO 2021-11-17 18:03:51,538 autoreload  42737 140476703168320 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 18:03:53,459 autoreload  42878 140535255455552 Watching for file changes with StatReloader
+INFO 2021-11-17 18:03:56,923 views  42878 140534798251776 The user 1 went to the page
+ERROR 2021-11-17 18:03:57,218 log  42878 140534798251776 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 59, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 18:03:57,304 basehttp  42878 140534798251776 "GET /mysite/proverka HTTP/1.1" 500 96158
+INFO 2021-11-17 18:04:10,708 views  42878 140534798251776 The user 1 went to the page
+ERROR 2021-11-17 18:04:10,814 log  42878 140534798251776 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 59, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 18:04:10,847 basehttp  42878 140534798251776 "GET /mysite/proverka HTTP/1.1" 500 96158
+INFO 2021-11-17 18:04:40,741 autoreload  42878 140535255455552 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 18:04:42,555 autoreload  42904 139769555695424 Watching for file changes with StatReloader
+INFO 2021-11-17 18:04:43,308 views  42904 139769099437824 The user 1 went to the page
+ERROR 2021-11-17 18:04:43,510 log  42904 139769099437824 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 58, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 18:04:43,570 basehttp  42904 139769099437824 "GET /mysite/proverka HTTP/1.1" 500 96096
+INFO 2021-11-17 18:04:54,885 autoreload  42904 139769555695424 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 18:04:56,917 autoreload  42968 140707723347776 Watching for file changes with StatReloader
+INFO 2021-11-17 18:04:58,452 views  42968 140707267188480 The user 1 went to the page
+ERROR 2021-11-17 18:04:58,952 log  42968 140707267188480 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 58, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 18:04:59,020 basehttp  42968 140707267188480 "GET /mysite/proverka HTTP/1.1" 500 96071
+INFO 2021-11-17 18:05:11,889 views  42968 140707267188480 The user 1 went to the page
+INFO 2021-11-17 18:05:11,939 autoreload  42968 140707723347776 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 18:05:14,044 autoreload  43014 139981699516224 Watching for file changes with StatReloader
+INFO 2021-11-17 18:05:18,549 views  43014 139981238564608 The user 1 went to the page
+ERROR 2021-11-17 18:05:18,790 log  43014 139981238564608 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 58, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 18:05:18,847 basehttp  43014 139981238564608 "GET /mysite/proverka HTTP/1.1" 500 95990
+INFO 2021-11-17 18:05:20,812 views  43014 139981238564608 The user 1 went to the page
+ERROR 2021-11-17 18:05:20,887 log  43014 139981238564608 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 58, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 18:05:20,921 basehttp  43014 139981238564608 "GET /mysite/proverka HTTP/1.1" 500 95988
+INFO 2021-11-17 18:05:21,781 views  43014 139981238564608 The user 1 went to the page
+ERROR 2021-11-17 18:05:21,838 log  43014 139981238564608 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 58, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 18:05:21,874 basehttp  43014 139981238564608 "GET /mysite/proverka HTTP/1.1" 500 95988
+INFO 2021-11-17 18:05:40,081 autoreload  43014 139981699516224 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 18:05:42,339 autoreload  43073 140255460042560 Watching for file changes with StatReloader
+INFO 2021-11-17 18:05:45,144 views  43073 140255002814208 The user 1 went to the page
+ERROR 2021-11-17 18:05:45,410 log  43073 140255002814208 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 59, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 18:05:45,470 basehttp  43073 140255002814208 "GET /mysite/proverka HTTP/1.1" 500 95944
+INFO 2021-11-17 18:06:47,187 autoreload  43073 140255460042560 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 18:06:49,264 autoreload  43161 140629631539008 Watching for file changes with StatReloader
+INFO 2021-11-17 18:09:57,890 autoreload  43161 140629631539008 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 18:10:00,520 autoreload  43310 140354628458304 Watching for file changes with StatReloader
+INFO 2021-11-17 18:14:02,683 autoreload  43310 140354628458304 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 18:14:05,319 autoreload  43399 140047774123840 Watching for file changes with StatReloader
+INFO 2021-11-17 18:14:59,180 autoreload  43399 140047774123840 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 18:15:01,289 autoreload  43462 139625182426944 Watching for file changes with StatReloader
+INFO 2021-11-17 18:16:38,676 autoreload  43462 139625182426944 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 18:16:40,505 autoreload  43623 139645471594304 Watching for file changes with StatReloader
+INFO 2021-11-17 18:16:58,820 autoreload  43623 139645471594304 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 18:17:00,781 autoreload  43657 139833885796160 Watching for file changes with StatReloader
+INFO 2021-11-17 18:17:08,400 views  43657 139833428571904 The user admin entered on the page 
+INFO 2021-11-17 18:17:08,717 basehttp  43657 139833428571904 "GET /mysite/ HTTP/1.1" 200 13650
+INFO 2021-11-17 18:17:08,783 basehttp  43657 139833428571904 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2021-11-17 18:17:08,784 basehttp  43657 139833408902912 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2021-11-17 18:17:08,785 basehttp  43657 139833420179200 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2021-11-17 18:17:08,794 basehttp  43657 139833408902912 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2021-11-17 18:17:08,847 basehttp  43657 139833408902912 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2021-11-17 18:17:10,257 views  43657 139833408902912 The user 1 went to the page
+ERROR 2021-11-17 18:17:10,318 log  43657 139833408902912 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 58, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 18:17:10,350 basehttp  43657 139833408902912 "GET /mysite/proverka HTTP/1.1" 500 95981
+INFO 2021-11-17 18:17:15,228 views  43657 139833408902912 The user 1 went to the page
+INFO 2021-11-17 18:17:15,378 basehttp  43657 139833408902912 "GET /mysite/123 HTTP/1.1" 200 11376
+INFO 2021-11-17 18:17:20,035 basehttp  43657 139833408902912 "GET /mysite/posts/post_edit/create_comment/ HTTP/1.1" 200 11674
+INFO 2021-11-17 18:17:22,112 basehttp  43657 139833408902912 "GET /mysite/posts/post_edit/create_comment/ HTTP/1.1" 200 11674
+INFO 2021-11-17 18:17:31,684 views  43657 139833408902912 The user 1 went to the page
+ERROR 2021-11-17 18:17:31,767 log  43657 139833408902912 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 58, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 18:17:31,800 basehttp  43657 139833408902912 "GET /mysite/proverka HTTP/1.1" 500 95983
+INFO 2021-11-17 18:17:34,799 views  43657 139833408902912 The user 1 went to the page
+INFO 2021-11-17 18:17:34,901 basehttp  43657 139833408902912 "GET /mysite/123 HTTP/1.1" 200 11374
+INFO 2021-11-17 18:19:20,922 autoreload  43657 139833885796160 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 18:19:22,905 autoreload  43760 140112370030400 Watching for file changes with StatReloader
+INFO 2021-11-17 18:19:26,403 views  43760 140111912781568 The user 1 went to the page
+INFO 2021-11-17 18:19:26,840 basehttp  43760 140111912781568 "GET /mysite/123 HTTP/1.1" 200 11323
+INFO 2021-11-17 18:19:28,525 views  43760 140111912781568 The user 1 went to the page
+INFO 2021-11-17 18:19:28,652 basehttp  43760 140111912781568 "GET /mysite/123 HTTP/1.1" 200 11323
+INFO 2021-11-17 18:19:29,555 basehttp  43760 140111912781568 "GET /mysite/posts/1 HTTP/1.1" 301 0
+INFO 2021-11-17 18:19:29,592 views  43760 140111912781568 The user went to the page: 1
+INFO 2021-11-17 18:19:29,762 basehttp  43760 140111912781568 "GET /mysite/posts/1/ HTTP/1.1" 200 11192
+INFO 2021-11-17 18:19:33,588 views  43760 140111912781568 The user 1 went to the page
+INFO 2021-11-17 18:19:33,600 views  43760 140111912781568 'NoneType' object has no attribute 'id'
+INFO 2021-11-17 18:19:33,651 basehttp  43760 140111912781568 "GET /mysite/proverka HTTP/1.1" 200 11113
+INFO 2021-11-17 18:19:38,729 views  43760 140111912781568 The user 1 went to the page
+INFO 2021-11-17 18:19:38,750 views  43760 140111912781568 'NoneType' object has no attribute 'id'
+INFO 2021-11-17 18:19:38,813 basehttp  43760 140111912781568 "GET /mysite/proverka HTTP/1.1" 200 11113
+INFO 2021-11-17 18:19:56,622 autoreload  43760 140112370030400 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 18:19:58,283 autoreload  43785 140708219619136 Watching for file changes with StatReloader
+INFO 2021-11-17 18:19:58,836 views  43785 140707759126272 The user 1 went to the page
+ERROR 2021-11-17 18:19:59,034 log  43785 140707759126272 Internal Server Error: /mysite/proverka
+Traceback (most recent call last):
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 159, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py", line 58, in get_context_data
+    last_post_id = Post.objects.filter(where_we_are__slug=self.kwargs['slug']).last().id
+AttributeError: 'NoneType' object has no attribute 'id'
+ERROR 2021-11-17 18:19:59,094 basehttp  43785 140707759126272 "GET /mysite/proverka HTTP/1.1" 500 96120
+INFO 2021-11-17 18:20:11,465 autoreload  43785 140708219619136 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 18:20:13,524 autoreload  43848 139911292303168 Watching for file changes with StatReloader
+INFO 2021-11-17 18:20:14,007 views  43848 139910836647680 The user 1 went to the page
+INFO 2021-11-17 18:20:14,285 views  43848 139910836647680 'NoneType' object has no attribute 'id'
+INFO 2021-11-17 18:20:14,376 basehttp  43848 139910836647680 "GET /mysite/proverka HTTP/1.1" 200 11115
+INFO 2021-11-17 18:20:26,384 views  43848 139910836647680 The user 1 went to the page
+INFO 2021-11-17 18:20:26,394 views  43848 139910836647680 'NoneType' object has no attribute 'id'
+INFO 2021-11-17 18:20:26,451 basehttp  43848 139910836647680 "GET /mysite/proverka HTTP/1.1" 200 11113
+WARNING 2021-11-17 18:20:28,665 log  43848 139910836647680 Not Found: /mysite/posts/post_edit/create_post/
+WARNING 2021-11-17 18:20:28,666 basehttp  43848 139910836647680 "GET /mysite/posts/post_edit/create_post/ HTTP/1.1" 404 16385
+WARNING 2021-11-17 18:20:32,558 log  43848 139910836647680 Not Found: /mysite/posts/post_edit/create_post/
+WARNING 2021-11-17 18:20:32,558 basehttp  43848 139910836647680 "GET /mysite/posts/post_edit/create_post/ HTTP/1.1" 404 16385
+INFO 2021-11-17 18:20:38,380 views  43848 139910836647680 The user 1 went to the page
+INFO 2021-11-17 18:20:38,514 basehttp  43848 139910836647680 "GET /mysite/123 HTTP/1.1" 200 11323
+INFO 2021-11-17 18:20:40,675 basehttp  43848 139910836647680 "GET /mysite/posts/post_edit/create_post/123 HTTP/1.1" 301 0
+INFO 2021-11-17 18:20:40,742 basehttp  43848 139910836647680 "GET /mysite/posts/post_edit/create_post/123/ HTTP/1.1" 200 11448
+INFO 2021-11-17 18:20:45,487 views  43848 139910836647680 The user 1 went to the page
+INFO 2021-11-17 18:20:45,524 views  43848 139910836647680 'NoneType' object has no attribute 'id'
+INFO 2021-11-17 18:20:45,579 basehttp  43848 139910836647680 "GET /mysite/proverka HTTP/1.1" 200 11113
+WARNING 2021-11-17 18:20:46,615 log  43848 139910836647680 Not Found: /mysite/posts/post_edit/create_post/
+WARNING 2021-11-17 18:20:46,615 basehttp  43848 139910836647680 "GET /mysite/posts/post_edit/create_post/ HTTP/1.1" 404 16385
+INFO 2021-11-17 18:20:51,528 views  43848 139910836647680 The user 1 went to the page
+INFO 2021-11-17 18:20:51,644 basehttp  43848 139910836647680 "GET /mysite/123 HTTP/1.1" 200 11323
+INFO 2021-11-17 18:20:53,565 basehttp  43848 139910836647680 "GET /mysite/posts/post_edit/create_post/123/ HTTP/1.1" 200 11448
+INFO 2021-11-17 18:21:04,410 basehttp  43848 139910836647680 "POST /mysite/posts/post_edit/create_post/123/ HTTP/1.1" 302 0
+INFO 2021-11-17 18:21:04,417 views  43848 139910836647680 The user admin entered on the page 
+INFO 2021-11-17 18:21:04,506 basehttp  43848 139910836647680 "GET /mysite/ HTTP/1.1" 200 13693
+INFO 2021-11-17 18:21:06,824 views  43848 139910836647680 The user 1 went to the page
+INFO 2021-11-17 18:21:06,973 basehttp  43848 139910836647680 "GET /mysite/123 HTTP/1.1" 200 11535
+INFO 2021-11-17 22:17:42,921 autoreload  43848 139911292303168 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 22:17:45,696 autoreload  47928 139980162881344 Watching for file changes with StatReloader
+INFO 2021-11-17 22:18:19,301 autoreload  47928 139980162881344 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 22:18:21,071 autoreload  47982 139697464555328 Watching for file changes with StatReloader
+INFO 2021-11-17 22:19:47,246 autoreload  47982 139697464555328 /home/xzvfczx/PycharmProjects/pythonProject3/SocialForum/board/mysite/views.py changed, reloading.
+INFO 2021-11-17 22:19:49,069 autoreload  48111 139645742757696 Watching for file changes with StatReloader
