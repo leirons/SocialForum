@@ -1,25 +1,25 @@
-from django.views.generic import TemplateView
-from django.views.generic.edit import UpdateView
-from django.views.generic.edit import CreateView
+import logging
+from typing import Any, Dict
 
-from .filters import Filter
 
-from .models import *
-from custom_user.models import CustomUser
-
-from .services import subscribelogic
-from .exceptions.ThereNotAnyPosts import ThereNotAnyPosts
-
+from django.contrib import messages
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.core.paginator import Paginator
 from django.shortcuts import render
-from django.contrib import messages
-from django.conf import settings
 from django.urls import reverse_lazy
+from django.views.generic import TemplateView
+from django.views.generic.edit import CreateView, UpdateView
+from django.utils.safestring import mark_safe
+from django.core.cache import cache
 
-from typing import Dict, Any
 
-import logging
+import json
+
+
+from .exceptions.ThereNotAnyPosts import ThereNotAnyPosts
+from .filters import Filter
+from .models import *
+from .services import subscribelogic
 
 logger = logging.getLogger('django')
 
@@ -36,12 +36,16 @@ class MultipleModelView(TemplateView):
     def get_context_data(self) -> Dict[str, Any]:
         logger.info(f"The user {self.request.user} entered on the page ")
 
+        messages = cache.get("messages")[:50]
         filter_ = Filter(self.request.GET, queryset=Theme.objects.all())
         context = super(MultipleModelView, self).get_context_data()
         context['modeltwo'] = Theme.objects.all()
         context['modelone'] = Subject.objects.all()
         context['modelsix'] = Post.objects.all().order_by('created_at')[:10]
         context['filter'] = filter_
+        context["room_name_json"] = mark_safe(json.dumps("chat"))
+        context["messages"] = mark_safe(json.dumps(messages))
+        print(messages)
         return context
 
 

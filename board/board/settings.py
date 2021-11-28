@@ -51,11 +51,23 @@ INSTALLED_APPS = [
     'corsheaders',
 
     # apps
+    "channels",
     'mysite.apps.SiteConfig',
     'custom_user.apps.CustomUserConfig',
     'storage.apps.StorageConfig',
     'chat.apps.ChatConfig'
 ]
+
+# Конфигурация Channels
+ASGI_APPLICATION = "board.routing.application"
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            "hosts":[("127.0.0.1",6379)],
+        },
+    },
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
